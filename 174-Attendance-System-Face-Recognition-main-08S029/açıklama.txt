@@ -1,0 +1,1 @@
+Bu proje, PS -1'imin bir parçası olarak oluşturulmuş, katılımı işaretlemek için yüz tanıma kullanımını gösteren bir web uygulamasıdır. Şirket tarafından çalışanlarının katılımını yönetmek için kullanılabilecek bir web uygulamasıdır.

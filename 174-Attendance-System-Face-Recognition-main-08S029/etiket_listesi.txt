@@ -1,0 +1,226 @@
+Python
+    os
+        path
+            dirname
+            abspath
+            join
+            exists
+            isdir
+        environ
+            setdefault
+        makedirs
+        listdir
+        remove
+    django
+        db
+            models
+                Count
+        shortcuts
+            render
+            redirect
+        
+        contrib
+            admin
+            auth
+                views(auth_views)
+                    LoginView
+                        as_view
+                    LogoutView
+                        as_view
+                    models
+                        User
+            messages
+            decorators
+                login_required
+        forms
+            Form
+            SelectDateWidget
+            CharField
+            ModelForm
+            DateField
+            usernameForm
+            DateForm
+            UsernameAndDateForm
+            DateForm_2
+        urls
+            path
+        core
+            wsgi
+                get_wsgi_application
+        apps
+            AppConfig
+        test
+            TestCase
+    recognition
+        views
+            recog_views
+                home
+                dashboard
+                train
+                add_photos
+                mark_your_attendance
+                mark_your_attendance_out
+                view_attendance_home
+                view_attendance_date
+                view_attendance_employee
+                view_my_attendance_employee_login
+                not_authorised
+    users
+        models
+            Present
+                objects
+                    get
+                    filter
+            Time
+                objects
+                    get
+                    filter  
+        views
+            users_views
+                register
+    keras
+        layers
+            Conv2D
+            ZeroPadding2D
+            Activation
+            Input
+            concatenate
+            core
+                Lambda
+                Flatten
+                Dense
+            normalization
+                BatchNormalization
+            pooling
+                MaxPooling2D
+                AveragePooling2D
+            normalization
+                BatchNormalization
+        models
+            Model
+        backend(K)
+            l2_normalize
+        utils
+            LRN2D
+            conv2d_bn
+    tensorflow(tf)
+        Variable
+        square
+        concat
+        nn
+            lrn
+    numpy(np)
+        asarray
+        zeros
+        reshape
+        transpose
+        genfromtxt
+        where
+        amax
+        load
+        ravel
+        array
+        save
+    cv2
+        cvtColor
+        COLOR_BGR2GRAY
+        imwrite
+        imshow
+        rectangle
+        waitKey
+        destroyAllWindows
+        putText
+        FONT_HERSHEY_SIMPLEX
+    dlib
+        get_frontal_face_detector
+        shape_predictor
+    imutils
+        face_utils
+            rect_to_bb
+            FaceAligner
+        video
+            VideoStream
+    time 
+    attendance_system_facial_recognition
+        settings
+            BASE_DIR
+    face_recognition
+        face_recognition_cli
+            image_files_in_folder
+    pickle
+        load
+        dump
+    sklearn 
+        preprocessing
+            LabelEncoder
+        neighbors
+            KNeighborsClassifier
+        svm
+            SVC
+        manifold
+            TSNE
+    matplotlib(mpl)
+        use
+        pyplot(plt)
+            scatter
+            tight_layout
+            savefig
+            close
+            xticks
+    datetime
+        today
+        now
+        timedelta
+    django_pandas
+        io
+           read_frame
+    seaborn(sns)
+        barplot
+        lineplot
+    pandas(pd)
+        DataFrame
+        plotting
+            register_matplotlib_converters
+        rcParams
+            update
+    math
+        ceil
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+Functions
+    import
+    from
+    as
+    class
+    return
+    if
+    elif
+    not 
+    else
+    break
+    while
+    continue
+    except
+
+
+
+
+HTML
+Dockerfile
+H5
