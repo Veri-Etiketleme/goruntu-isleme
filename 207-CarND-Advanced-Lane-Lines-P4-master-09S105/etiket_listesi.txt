@@ -1,0 +1,19 @@
+Python
+    numpy
+    cv2
+    glob    
+    for
+        in
+    matplotlib
+        pyplot
+        image
+    moviepy
+        editor
+            VideoFileClip
+    IPython
+        display
+            HTML
+    if
+    else
+Markdown
+Ignore   

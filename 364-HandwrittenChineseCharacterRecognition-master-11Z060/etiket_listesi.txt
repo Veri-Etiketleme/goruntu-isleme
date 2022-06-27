@@ -1,0 +1,52 @@
+Python
+      os
+        path 
+           join 
+        mkdir 
+        walk  
+      cv2
+         imwrite
+      numpy
+           fromfile
+      argparse
+              ArgumentParser
+                           add_argument
+                           parse_args
+      random
+            shuffle
+      sys
+      pickle
+            dump
+      struct
+      tensorflow
+                app
+                    flags
+                         DEFINE_string
+                         DEFINE_integer
+                         DEFINE_BOOL
+                         FLAGS 
+    Fonksiyonlar
+    read_gnt
+    file_list
+    getDict  
+    arg_parser
+    main 
+    open
+    extractor
+    get_image_path_and_labels
+   
+    if 
+    else 
+   
+    for 
+   
+    while 
+
+    return 
+
+    yield 
+
+    break
+
+    with 
+
