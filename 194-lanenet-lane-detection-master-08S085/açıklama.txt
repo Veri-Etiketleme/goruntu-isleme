@@ -1,0 +1,4 @@
+Esas olarak IEEE IV konferansına dayalı gerçek zamanlı şerit tespiti için bir Derin Sinir Ağı uygulamak için tensorflow kullanın
+"Uçtan Uca Şerit Tespitine Doğru: Bir Örnek Segmentasyon Yaklaşımı" başlıklı makale. Ayrıntılar için makalelerine başvurabilirsiniz.
+https://arxiv.org/abs/1802.05591. Bu model, bir kodlayıcı-kod çözücü aşaması, ikili anlamsal bölümleme aşamasından oluşur.
+ve gerçek zamanlı şerit algılama görevi için ayırt edici kayıp işlevini kullanan örnek anlamsal bölümleme.

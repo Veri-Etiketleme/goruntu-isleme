@@ -1,0 +1,7 @@
+data
+model
+.idea
+*-env
+tboard
+__pycache__
+*__pycache__
