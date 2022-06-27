@@ -1,0 +1,1 @@
+Tıbbi görüntü segmentasyonu için tasarlanmış Pytorch 3D U-Net Convolution Neural Network (CNN)

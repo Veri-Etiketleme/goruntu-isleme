@@ -1,0 +1,71 @@
+Python
+    pathlib
+        Path
+    cv2
+        FONT_HERSHEY_SIMPLEX
+        getTextSize
+        rectangle
+        putText
+        FILLED
+        LINE_AA
+        imread
+        cvtColor
+        COLOR_BGR2RGB
+        resize
+        INTER_AREA
+        imshow
+        imwrite
+        waitKey
+        destroyAllWindows
+        VideoCapture
+        VideoWriter_fourcc
+        VideoWriter
+    dlib    
+        get_frontal_face_detector
+    sys
+        argv  
+        setrecursionlimit  
+    numpy(np)
+        shape
+        empty
+        expand_dims
+        array
+        random
+            seed
+    argparse
+    contextlib
+        contextmanager
+    wide_resnet
+    os
+        listdir
+        path
+            isfile
+            join
+    logging
+        debug
+
+
+
+
+
+
+
+
+Functions
+    import
+    from 
+    as 
+    for 
+    in 
+    if 
+    while
+    break
+    else
+    return
+    assert
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+
+H5

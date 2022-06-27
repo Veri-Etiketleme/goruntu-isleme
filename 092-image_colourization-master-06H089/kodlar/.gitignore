@@ -1,0 +1,6 @@
+.idea/
+.ipynb_checkpoints/
+ann/__pycache__/
+nn_scratch/__pycache__/
+.DS_Store
+

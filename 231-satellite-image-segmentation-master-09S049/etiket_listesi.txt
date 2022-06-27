@@ -1,0 +1,31 @@
+Python
+    gradio
+    numpy
+    skimage
+        segmentation
+        io
+            imshow
+            ImageCollection
+            imread
+        morphology
+        filters
+        draw
+        color
+        future
+            graph
+        feature
+            canny
+            peak_local_max
+        util
+        data
+        measure
+        util
+    scipy
+        ndimage
+    json
+    if
+    matplotlib
+        pyplot
+JSON
+Ignore
+Properties

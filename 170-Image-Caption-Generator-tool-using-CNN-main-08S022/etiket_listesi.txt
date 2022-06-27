@@ -1,0 +1,59 @@
+Python
+    tkinter(tk)
+        Tk
+        filedialog
+            askopenfilename
+    PIL
+        ImageTk
+            PhotoImage
+        Image
+            open
+            configure
+    numpy(np)
+        expand_dims
+        reshape
+        argmax
+        array
+        argsort
+    cv2
+    tensorflow
+        keras
+            models
+                load_model
+                Model
+            preprocessing
+                sequence
+                    pad_sequences
+            applications
+                     inception_v3
+                            InceptionV3
+                            preprocess_input
+    pickle
+        dump
+        load
+    string
+        punctuation
+    os
+        listdir
+        mkdir
+    tqdm
+        tqdm_notebook(tqdm)
+
+
+    Functions
+        import
+        as
+        from
+        return
+        in
+        break
+        while
+        if
+        else
+        try
+        pass
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+Matlab(?)

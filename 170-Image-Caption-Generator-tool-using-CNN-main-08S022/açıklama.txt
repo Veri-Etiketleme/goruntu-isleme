@@ -1,0 +1,1 @@
+Bu ML tabanlı projede, görüntüleri tespit edip başlıklarını yazdıracağım.

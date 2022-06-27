@@ -1,0 +1,1 @@
+Akıllı Uzaklaştırma, uç bilgisayar görüş sistemlerini kullanarak sosyal mesafe önlemlerini ölçmek için açık kaynaklı bir uygulamadır. Tüm hesaplama cihaz üzerinde çalıştığından minimum kurulum gerektirir ve gizlilik ve güvenlik endişelerini en aza indirir. Perakende, işyerleri, okullar, şantiyeler, sağlık tesisleri, fabrikalar vb. yerlerde kullanılabilir.
