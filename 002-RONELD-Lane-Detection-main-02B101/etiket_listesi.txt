@@ -1,0 +1,79 @@
+PYTHON 
+   
+       math 
+          sqrt 
+          e 
+
+
+        warnings 
+             filterwarnings   
+
+
+
+        cv2 
+          line 
+          imread
+          imshow 
+          IMREAD_GRAYSCALE
+          waitKey
+
+       numpy 
+           array 
+           zeros
+           append
+           ndarray 
+           max 
+           all 
+           random 
+               rand 
+           column_stack 
+           dot
+           linalg
+               inv      
+           diag    
+           apply_along_axis
+           argsort
+           delete
+           var 
+           cov 
+
+
+
+        scipy 
+            integrate 
+                 integrate 
+            interpolate 
+
+
+        typing 
+             List     
+
+        numba 
+            jit 
+            prange
+            njit 
+
+        
+        setuptools 
+              setup 
+
+        glob 
+           glob 
+
+
+        lane_detection_function 
+                             roneld_lane_detection     
+
+
+
+DÖNGÜLER 
+for 
+in 
+break 
+return 
+
+
+
+KOŞULLAR
+if 
+else 

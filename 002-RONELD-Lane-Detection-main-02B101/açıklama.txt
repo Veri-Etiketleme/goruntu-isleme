@@ -1,0 +1,2 @@
+RONELD yönteminin resmi Python uygulaması (ICPR 2020)
+Aktif şerit takibi uygulaması 

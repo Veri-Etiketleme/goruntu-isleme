@@ -1,0 +1,14 @@
+Python
+    matplotlib
+        pyplot
+        image   
+    numpy
+    cv2
+    os 
+    moviepy
+        editor
+            VideoFileClip
+    for
+        in
+    if
+Markdown    

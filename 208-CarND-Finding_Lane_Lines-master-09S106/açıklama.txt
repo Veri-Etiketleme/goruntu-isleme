@@ -1,0 +1,1 @@
+Yoğunluğu değişmez kılmak için HSL renk uzayında uygulanan kendi kendini ayarlayan Canny kenar detektörünü kullanarak beyaz ve sarı renkli şerit çizgilerini izleyerek bir şerit algılama boru hattı.
