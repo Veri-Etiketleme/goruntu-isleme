@@ -1,0 +1,70 @@
+PYTHON
+    
+
+     cv2
+      VideoCapture
+      imwrite
+      destroyAllWindow
+      imread
+      imshow
+      waitKey
+
+
+
+     os 
+       path
+          join
+        getcwd
+
+     
+     numpy
+         expend_dims
+         squeeze
+         int32
+
+
+
+      tensorflow
+            Graph
+            GraphDef
+            import_graph_def
+            gfile
+                GFile
+            Session    
+
+
+
+       sys 
+         path 
+             append
+
+
+      utils       
+         label_map_util
+         visualization_utils 
+                      visualize_boxes_and_labels_on_image_array
+
+
+
+
+
+KOŞULLAR
+
+while
+if
+else
+
+
+
+
+
+
+
+DÖNGÜLER
+break
+with
+
+
+
+YARDIMCI TEKNOLOJİLER
+Jupyter Notebook

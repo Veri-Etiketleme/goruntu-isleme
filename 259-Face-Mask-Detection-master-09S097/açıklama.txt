@@ -1,0 +1,1 @@
+Gerçek video akışlarında Python, Keras, OpenCV kullanarak yüz maskelerini algılama
