@@ -1,0 +1,1 @@
+Bu proje tam evrişimli görüntü segmentasyonu üzerinedir.

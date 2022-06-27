@@ -1,0 +1,48 @@
+Python
+    numpy(np)
+        expand_dims
+    keras
+        backend(k)
+        layers
+            Conv2D
+            MaxPooling2D
+            SpatialDropout2D
+            Flatten
+            Dropout
+            Dense
+        models
+            Sequential
+            load_model
+        optimizers
+            Adam
+        preprocessing
+            image
+                load_img
+                img_to_array
+                ImageDataGenerator
+    cv2
+        VideoCapture
+        CascadeClassifier
+        imwrite
+        rectangle
+        putText
+        FONT_HERSHEY_SIMPLEX
+        imshow
+        waitKey
+        destroyAllWindows
+    datetime
+        datetime
+            now
+Koşullar
+    while
+    for
+    in 
+    if
+    else
+    break   
+yml
+xml
+jpg
+png
+h5
+requirements.txt
