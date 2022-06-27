@@ -1,0 +1,1 @@
+Evrişim sinir ağlarını eğiterek talep triyajını kolaylaştırmak için araç hasarını doğru bir şekilde sınıflandırmak için Bilgisayarla Görme ve Derin Öğrenme teknikleri

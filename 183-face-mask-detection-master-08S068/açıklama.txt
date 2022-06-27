@@ -1,0 +1,1 @@
+Maskeli ve maskesiz insanların yüzlerinin görüntülerinin sınıflandırılması.

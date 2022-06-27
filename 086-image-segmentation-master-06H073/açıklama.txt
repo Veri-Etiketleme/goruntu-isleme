@@ -1,0 +1,1 @@
+Bu program, girdi olarak bir dizi görüntü almak ve bunlar üzerinde verilen bir dizi işlemi çalıştırmak için tasarlanmıştır.

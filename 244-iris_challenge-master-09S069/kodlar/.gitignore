@@ -1,0 +1,30 @@
+# =========== #
+#     Dir     #
+# =========== #
+detector/models/*
+!detector/models/*.config
+detector/data/*
+
+# =========== #
+#  Notebooks  #
+# =========== #
+.idea*
+__pycache__*
+.ipynb_checkpoints*
+
+# =========== #
+#    Images   #
+# =========== #
+*.ppm
+*.jpg
+*.jpeg
+*.png
+!output_images/detection/*.png
+!output_images/horizon/*.png
+
+# =========== #
+#   CSV/XML   #
+# =========== #
+*.csv
+*.xml
+

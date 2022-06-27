@@ -1,0 +1,78 @@
+PYTHON
+   
+
+      argparse
+           parser
+               parse_args
+            i    
+           
+
+
+
+        sys 
+          argv
+
+
+
+
+        FeatureGen
+                *
+        
+
+
+        dlib
+           get_frontal_face_detector
+           shape_predictor
+           image_window
+
+
+
+
+
+        skimage
+             io 
+              imread
+
+
+
+
+        numpy
+           array 
+           asarray
+           zeros
+
+
+
+
+        cv2
+          imread
+          FONT_HERSHEY_SIMPLEX
+          putText
+          namedWindow
+          imshow  
+          waitKey
+
+
+        sklearn
+            externals
+                   joblib
+
+
+        math
+           sqrt
+
+        
+        
+        itertools
+               combinations
+        
+        
+    
+
+
+    DÖNGÜLER
+        for 
+        in 
+        expect
+        try
+        return

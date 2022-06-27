@@ -1,0 +1,1 @@
+Drone görüntüleri için Nesne Algılama (Tensorflow) ve ufuk çizgisi algılama (OpenCV)

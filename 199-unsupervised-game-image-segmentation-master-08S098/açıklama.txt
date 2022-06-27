@@ -1,0 +1,1 @@
+Experiments and research in segmenting image textures from pixelated game screenshots

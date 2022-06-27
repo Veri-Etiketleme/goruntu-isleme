@@ -1,0 +1,51 @@
+Python 
+    matplotlib
+        pyplot
+            figure
+            imshow
+            title
+        image
+            imread
+            imsave
+    numpy
+        zeros_like
+        polyfit
+        isnan
+        array
+        zeros 
+        uint8
+        int32
+        pi 
+    cv2
+        cvtColor
+        COLOR_RGB2GRAY
+        Canny
+        GaussianBlur
+        fillPoly
+        bitwise_and
+        line
+        HoughLinesP
+        addWeighted
+    math
+    os
+    moviepy
+        editor
+            VideoFileClip
+    IPython
+        display
+            HTML
+
+
+Fonksiyonlar 
+
+    len 
+    abs
+    int 
+    print
+    type
+
+Yardımcı Teknolojiler 
+
+    Jupyter Notebook
+    Markdown
+    Html

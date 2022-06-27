@@ -1,0 +1,1 @@
+Konvolüsyonlu Sinir Ağı ve Önceden Eğitimli Modeller Kullanarak Göğüs Röntgeni Görüntülerinde Pnömoni Tespiti

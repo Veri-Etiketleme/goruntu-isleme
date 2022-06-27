@@ -1,0 +1,1 @@
+Bu projede Python ve OpenCV kullanarak videolarda şerit çizgileri tespit ediliyor.

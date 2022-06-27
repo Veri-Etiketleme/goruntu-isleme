@@ -1,0 +1,171 @@
+Python
+    torch
+        nn
+            functional(F)
+                grid_sample
+                softmax
+                interpolate
+                sigmoid
+            Conv2d
+            Module
+            ModuleDict
+        zeros
+        cat
+        autograd
+            grad 
+        utils
+            spectral_norm
+            data
+                Dataset
+        matmul
+        inverse
+        sigmoid
+        InstanceNorm2d
+        ModuleList
+        Conv2d
+    modules
+        util
+            Hourglass
+            AntiAliasInterpolation2d
+            make_coordinate_grid
+            kp2gaussian
+            ResBlock2d
+            SameBlock2d
+            UpBlock2d
+            DownBlock2d
+        dense_motion
+            DenseMotionNetwork
+        generator
+            OcclusionAwareGenerator
+        keypoint_detector
+            KPDetector
+    torchvision
+        models
+        transforms
+            functional
+                adjust_brightness
+                adjust_saturation
+                adjust_hue
+                adjust_contrast
+    numpy(np)
+        array   
+        allclose
+        abs
+        transpose
+        concatenate
+        ndarray
+        sqrt
+    sync_batchnorm
+        SynchronizedBatchNorm2d(BatchNorm2d)
+        DataParallelWithCallback
+    collections
+        namedtuple
+        OrderedDict
+    queue
+        put
+    threading
+        Lock
+        Condition
+    functools 
+        wraps
+    unittest
+        TestCase
+    os
+        path
+             join   
+             exists
+        makedirs
+    frames_dataset
+        PairedDataset
+    logger
+        Visualizer
+    imageio
+        imsave
+        imread
+        get_reader
+    scipy
+        spatial
+            ConvexHull
+    numbers
+    random
+        uniform
+        randint
+        shuffle
+    PIL
+        Image
+            NEAREST
+            BILINEAR
+    skimage
+        transform
+            resize
+            rotate
+        util
+            pad
+        img_as_ubyte
+        img_as_float
+        color
+            gray2rgb
+        model_selection
+            train_test_split
+        io
+        draw
+            circle
+    warnings
+        catch_warnings
+        simplefilter
+    matplotlib
+        animation
+        pyplot(plt)
+            get_cmap
+    sys       
+        version_info
+    yaml
+        load
+    argparse
+        ArgumentParser
+    tqdm
+    animate
+        normalize_kp
+    augmentation
+        AllAugmentationTransform
+    cv2
+        VideoCapture
+        VideoWriter_fourcc
+        VideoWriter
+        cvtColor
+        COLOR_BGR2RGB
+        flip
+        COLOR_RGB2BGR
+        imshow
+        waitKey
+Functions
+    if
+    return
+    import
+    from
+    else
+    assert
+    with
+    pass
+    elif
+    raise
+    break
+    continue
+    while
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+YAML

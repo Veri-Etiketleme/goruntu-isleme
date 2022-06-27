@@ -1,0 +1,29 @@
+Python
+    xml
+        etree
+            ElementTree(ET)
+                parse
+    pickle  
+    os
+        listdir
+        getcwd  
+        path
+            join
+            isfile  
+            isdir   
+    sys
+        argv
+    glob
+Functions
+    if 
+    else
+    continue
+    return
+    for 
+    in
+    with
+    as
+    from
+    import
+Yardımcı Teknolojiler
+    JupyterNotebook

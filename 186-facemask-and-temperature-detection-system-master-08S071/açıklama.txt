@@ -1,0 +1,3 @@
+Kombine arduino ve bilgisayar kamerası, geçen insanların salgın önleme yönetmeliklerine uyup uymadığını değerlendirmek için.
+
+Belirli önleme düzenlemeleri ihlal edilirse, uyarı sesine göre çalınacaktır.

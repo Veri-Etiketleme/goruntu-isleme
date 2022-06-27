@@ -1,0 +1,69 @@
+Python 
+    pandas
+         read_csv 
+    numpy 
+         array 
+      
+         zeros 
+    torch 
+        utils 
+             data 
+                 Dataset
+                 DataLoader
+        autograd 
+               Variable 
+        load 
+        nn 
+          UpsamplingNearest2d
+          Upsample 
+          BatchNorm2d
+          ReLU
+          Conv2d
+          MSELoss
+        optim 
+             SGD
+             Adam 
+        backends 
+                cudnn        
+    copy
+
+
+    matplotlib 
+             pyplot 
+                  show 
+                  imshow 
+    data_loader
+            KFDataset
+    models 
+           KFSGNet
+                    float 
+                         cuda 
+     
+                    eval      
+    train 
+         config
+         get_peak_points
+         get_mse 
+    
+    pprint 
+         pprint  
+    
+    graphviz
+             Digraph                                        
+  
+
+
+
+
+  DÖNGÜLER
+
+    for 
+    in 
+KOŞULLAR
+    if 
+    else
+    elif
+
+
+
+                   

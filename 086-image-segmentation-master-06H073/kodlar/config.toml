@@ -1,0 +1,31 @@
+
+#####################################################################
+#
+# DATADIR: The directory where the input images are location
+# OUTPUTDIR: The directory where the output images and plots should be stored
+#
+# **Important Note**
+# --------------------
+# If the program is being run using a docker container, these directories
+# need to be linked to the container using volumes
+#
+# (i.e. -v $HOME/Repos/CMSC630_Project_2/datasets:/app/datasets)
+#
+#####################################################################
+DATA_DIR = "datasets/Cancerous_cell_smears"
+OUTPUT_DIR = "datasets/output/"
+FILE_EXTENSION = ".BMP"
+
+# The number of process workers in the process pool for work on batches
+NUM_OF_PROCESSES = 10
+
+#################################################
+#
+# COLOR_CHANNEL:
+#
+# The color channel to select from the image
+# Possible values are "red", "blue", and "green"
+#
+#################################################
+COLOR_CHANNEL = "red"
+

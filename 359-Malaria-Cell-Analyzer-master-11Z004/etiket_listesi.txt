@@ -1,0 +1,88 @@
+PYTHON
+     numpy
+         random
+               seed 
+    pandas
+           DataFrame
+           concat
+    numpy
+         stack
+         matplotlib
+                  pyplot
+                        figure
+                        subplot
+                        imshow
+                        xlabel
+                        
+    os
+      path
+          join
+      listdir
+      itertools
+    cv2
+       imread
+       resize
+       imwrite
+    tensorflow
+             keras
+                  utils
+                       set_random_seed
+                  models
+                        Model
+                  layers
+                        Dense
+                        Dropout
+                        Conv2D
+                        MaxPooling2D
+                        Flatten
+                        ZeroPandding2D
+                  optimizers
+                            Adam
+                  metrics
+                         categorical_crossentropy
+                         binary_accuracy
+                  preprocessing.image
+                                     ImageDataGenerator
+                  callbacks
+                           EarlyStopping
+                           ReduceLROnPlateau
+                           ModelCheckpoint
+                  Squential
+    sklearn
+           metrics
+                   confusion_matrix
+                   roc_auc_score
+                   classification_report
+           model_selection
+                          train_test_split  
+                          StratifiedKFold 
+                          KFold
+           tensorflow
+                     keras
+                           preprocessing_image       
+                                              ImageDataGenerator        
+           utils
+                shuffle
+    shutil
+    pickle
+    warnings
+            filterwarnings
+    
+
+
+HTML
+JavaScript
+CSS  
+   w3   
+
+  Fonksiyonlar
+
+  
+    for
+    return
+  
+  
+    if
+    else
+     YARDIMCI TEKNOLOJİLER
+     .jpynb jupiter notebook teknolojisi kullanmıştır

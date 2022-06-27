@@ -1,0 +1,13 @@
+Python
+    deoldify
+        device
+        device_id
+            DeviceId
+        visualize    
+    torch
+    if
+    fastai
+    for
+        in
+Markdown
+    

@@ -1,0 +1,1 @@
+Görüntü veya gerçek zamanlı kamera için Derin Öğrenme ile openCV kullanarak yaş ve cinsiyet tespiti.
