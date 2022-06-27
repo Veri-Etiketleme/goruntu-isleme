@@ -1,0 +1,1 @@
+Bu projede cilt kanseri ve sedef hastalığının önlenmesi ve erken teşhisi için kullanılan bir model oluşturuyoruz. Kişinin kullanıcı arayüzünden resim yükleyebileceği bir uygulama oluşturulur, ardından resim eğitilmiş modele gönderilir. Model görüntüyü analiz eder ve kişinin sahip olduğu cilt hastalığını tespit eder.

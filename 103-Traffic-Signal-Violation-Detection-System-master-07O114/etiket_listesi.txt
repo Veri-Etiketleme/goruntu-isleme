@@ -1,0 +1,65 @@
+Python
+    numpy
+        frombuffer
+        prod
+        argmax
+        exp
+        ones
+        expand_dims
+        newaxis
+        argsort
+    keras
+        layers
+            Conv2D
+            BatchNormalization
+            Input
+            LeakyReLU
+            ZeroPadding2D
+            UpSampling2D
+        merge
+            add
+            concatenate
+        models
+            Model
+    struct
+        unpack
+    cv2
+        resize
+        line
+        rectangle
+        VideoCapture
+        imshow
+        destroyAllWindows()
+
+        waitKey
+        imwrite
+        putText
+        FONT_HERSHEY_SIMPLEX
+    tkinter
+        filedialog
+    PIL
+        Image
+        ImageTk
+    imageio
+        get_reader
+        get_writer
+
+
+Fonksiyonlar hakkında bilgisi var
+koşul
+döngü
+Fonksiyonlar
+import
+as
+from
+with
+if 
+else
+for
+in
+try
+except
+return
+continue
+while
+break

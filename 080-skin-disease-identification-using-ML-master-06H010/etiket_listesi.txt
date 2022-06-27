@@ -1,0 +1,51 @@
+Python 
+    gevent
+        pywsgi
+            WSGIServer
+    werkzeug
+        utils
+            secure_filename
+    flask
+        Flask
+        request
+            method
+            files
+        render_template
+    graph 
+        as_deafult
+    tensorflow
+        get_deafult_graph
+    os
+        path
+            join 
+            dirname
+    numpy
+        expand_dims
+    keras
+        layers
+            Dense
+            Convultion2D
+            MaxPooling2D
+            Flatten
+        models
+            Sequential
+            load_model
+        preprocessing
+            image
+                ImageDataGenerator
+                load_img
+                img_to_array
+    __future__
+        divison
+        print_function
+
+Fonksiyonlar 
+    print
+    str
+
+Yardımcı Teknolojiler 
+
+    Css
+    Js
+    Html
+    JupyterNotebook
