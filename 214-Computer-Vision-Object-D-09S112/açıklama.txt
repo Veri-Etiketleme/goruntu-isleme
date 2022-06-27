@@ -1,0 +1,1 @@
+Python'da OpenCV kullanarak nesne algılama (yüzler, insanlar, arabalar)

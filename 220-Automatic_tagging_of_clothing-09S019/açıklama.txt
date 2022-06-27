@@ -1,0 +1,1 @@
+Tensorflow ve GCP Kullanarak E-Ticaret'te giysilerin otomatik olarak etiketlenmesi. Makine Öğrenimi kullanarak giyim ürünlerini çeşitli kategorilere ayırın
