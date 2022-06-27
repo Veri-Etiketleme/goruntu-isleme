@@ -1,0 +1,3 @@
+Özellik çıkarma için Histograms of Oriented Gradients (HOG'ler) ve sınıflandırma 
+ için doğrusal bir SVM kullanan kişi dedektörü. 
+Honors ML projesi için yapılmıştır. Topladığım resim verilerini içerir.

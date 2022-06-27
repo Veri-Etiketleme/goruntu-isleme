@@ -1,0 +1,93 @@
+PYTHON 
+    
+      numpy
+          imread 
+          float32
+          arange 
+          array
+          ones
+          hstack
+          dot
+          zeros
+          eye
+          sum 
+          linalg
+              norm 
+          sign     
+          full 
+          mean
+          min
+          max
+     cv2
+        imread 
+        cvtColor
+        COLOR_BGR2RGB
+        Sobel
+        CV_32F 
+        cartToPolar
+        flip 
+        resize
+        INTER_AREA
+        INTER_LINEAR
+
+     matplotlib 
+             pyplot
+                   figure
+                   subplot
+                   axis 
+                   title
+                   imshow
+                   xticks
+                   yticks
+                   bar
+                   scatter
+                   legend
+                   gca
+                   plot 
+      skimage
+          feature 
+               append              
+                     hog 
+        
+
+      cvxopt 
+             matrix
+             solvers 
+                  options 
+                  qp 
+
+       
+        pandas 
+
+
+        h5py
+
+
+       os 
+           listdir 
+
+
+      sklearn 
+              utils  
+                  shuffle 
+              metrics
+                    confusion_matrix
+                    accuracy_score
+                    precision_score
+                    recall_score 
+
+       bokeh
+         io
+             plotting
+             figure   
+             output_notebook
+             show
+             push_notebook
+
+       time 
+           sleep 
+
+
+YARDIMCI TEKNOLOJİLER
+ h5py 
+ Jupyter Notebook

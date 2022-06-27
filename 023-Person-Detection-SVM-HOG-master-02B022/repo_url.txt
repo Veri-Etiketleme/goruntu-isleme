@@ -1,0 +1,1 @@
+https://github.com/nishai/Person-Detection-SVM-HOG
