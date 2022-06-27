@@ -1,0 +1,113 @@
+PYTHON
+    
+
+    os
+      listdir
+      path 
+        join 
+         basename
+         dirname
+         exists
+      makedirs
+
+
+
+
+    keras
+       preprocessing
+                    image    
+                        ImageDataGenerator
+                        img_to_array
+                        load_img
+                        array_to_img
+
+    __future__
+           print_function
+
+
+    time 
+
+    
+    sys
+      exit 
+
+
+    requests
+
+
+    cv2
+       imread
+       getAffineTransform
+       warpAffine
+       filter2D
+       dilate
+       imwrite
+       morphology
+       resize
+       getRotationMatrix2D
+       MORPH_OPEN
+       COLOR_GRAY2RGB
+       cvtColor
+
+
+                        
+    
+    numpy                    
+        invert
+        float32
+        set_printoptions
+        ones 
+
+
+
+
+    scipy
+        misc
+        ndimage
+
+    itertools
+
+    operator 
+
+    openface
+           AlignDlib   
+           TorchNeuralNet
+
+                        
+    argparse
+          ArgumentParser      
+
+
+    math 
+      pi 
+
+    skimage
+         io 
+         transform 
+          img_as_float
+
+    sys 
+            
+
+    matplotlib 
+            pyplot 
+
+
+
+
+
+
+
+                        DÖNGÜLER
+                        for
+                        break
+                        in 
+                        expect
+                        try
+
+
+                     KOŞULLAR
+                        if 
+                        else
+                        
+

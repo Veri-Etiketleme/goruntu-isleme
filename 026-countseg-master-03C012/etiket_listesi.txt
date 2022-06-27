@@ -1,0 +1,59 @@
+python
+    import
+        os
+        json
+        torch
+            nn
+                DataParallel
+                functional
+                    adaptive_avg_pool2d
+            ones
+            zeros
+            pow
+            mul
+            sum
+            div
+            sqrt
+            mean
+            load
+        numpy
+            round
+            array
+        matplotlib
+            pyplot
+                imshow
+                figure
+                show
+        nest
+            modules
+            run_tasks
+        random
+        xml
+            etree
+                ElementTree
+        collections
+            OrderedDict
+        PIL
+            image
+        cv2
+        scipy
+            misc
+                imresize
+            io
+                loadmat
+        termcolor
+            colored
+        warnings
+            filterwarnings
+        sklearn
+            metrics
+                mean_squared_error
+
+
+
+Yardımcı Teknolojiler 
+    Jupyter Notebook
+    Pytorch
+bash
+json
+zope
