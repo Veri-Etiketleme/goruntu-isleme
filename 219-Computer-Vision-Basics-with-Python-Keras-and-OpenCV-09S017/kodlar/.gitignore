@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+
+training_data/*
+validation_data/*
+
+*.whl
+pyenv/
