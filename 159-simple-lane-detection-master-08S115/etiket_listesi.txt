@@ -1,0 +1,57 @@
+Python
+    os
+        listdir
+    matplotlib
+        pyplot
+            figure
+            subplot
+            imshow
+            autoscale
+            show
+        image(mpimg)
+            imread
+    numpy(np)
+        array
+        zeros_like
+        int32
+        mean
+        uint8
+        zeros
+        pi
+        math
+    cv2
+        cvtColor
+        COLOR_RGB2HLS
+        inRange
+        bitwise_or
+        bitwise_and
+        fillPoly
+        COLOR_RGB2GRAY
+        Canny
+        line
+        addWeighted
+        HoughLinesP
+    moviepy
+        editor
+        VideoFileClip    
+    IPython
+        display
+            HTML
+Funcions
+    as 
+    import
+    from
+    if 
+    else
+    return
+    try 
+    except
+    pass
+
+
+
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook

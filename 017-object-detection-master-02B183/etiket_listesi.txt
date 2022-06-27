@@ -1,0 +1,152 @@
+PYTHON 
+   
+
+   os
+    path 
+       basename
+       join 
+    mkdir
+        isdir
+        exists
+
+
+   colorsys
+         hsv_to_rgb
+
+    
+
+    random
+       seed
+       shuffle
+
+
+
+    numpy
+       array
+       expand_dims
+       floor
+       ndindex
+       zeros
+       float32
+       log
+       maximum 
+
+
+  
+    functools
+           partial
+
+
+    cv2
+      cvtColor
+      COLOR_BGR2RGB
+      resize
+      putText
+      reactangle
+      FONT_HERSHEY_SIMPLEX   
+      getTextSize
+      LINE_AA
+      imwrite
+      imread
+      VideoCapture
+      waitKey
+      destroyAllWindows
+      IMWRITE_JPEG_QUALITY
+      INTER_AREA
+      CAP_PROP_FRAME_WIDTH
+      CAP_PROP_FRAME_HEIGHT
+    
+
+
+    keras
+        backend
+             stack
+             reshape
+       layers
+              advanced_activations
+                             LeakyReLU
+           Conv2D
+           Lambda
+           MaxPooling2D
+           normalization 
+                   BatchNormalization
+           merge    
+                 concatenate     
+       models            
+          Model
+       regularizers   
+                 l2
+
+    tensorflow 
+               space_to_depth   
+               import_graph_def
+               Graph
+               compat
+                    v1
+                       GraphDef
+              Session         
+
+
+
+    keras_darknet19
+               DarknetConv2D
+               DarknetConv2D_BN_Leaky
+               darknet_body
+
+
+
+    utils
+         yolo_utils
+                 scale_boxes
+         ssd_mobilenet_utils
+                          *        
+
+
+
+                  return
+                  with
+                  for 
+                  in
+
+
+    sys 
+    
+    six
+       moves
+           urllib
+                urllib
+
+    tqdm
+       tqdm            
+
+
+
+    tarfile  
+        open 
+
+   
+    time
+        time
+
+
+    glob
+        glob                
+
+
+
+                KOŞULLAR
+                   if 
+                   else
+                   while
+
+
+
+
+
+
+                 DÖNGÜLER
+                  break
+                  return
+                  with
+                  for 
+                  in

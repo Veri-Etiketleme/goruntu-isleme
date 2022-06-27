@@ -1,0 +1,5 @@
+# Git ignore file.
+.DS_Store
+*.pyc
+images
+*.zip

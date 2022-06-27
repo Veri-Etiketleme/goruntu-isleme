@@ -1,0 +1,10 @@
+Python
+    imutils
+        list_images
+    argparse
+        ArgumentParser
+    cv2
+        Laplacian
+        cvtColor
+        imread
+    sys

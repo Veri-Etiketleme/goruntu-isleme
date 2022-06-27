@@ -1,0 +1,25 @@
+Python
+    numpy
+    sklearn
+        decomposition
+            PCA    
+    if
+    else
+    for
+        in
+    copy_move_detection
+        image_object
+        container
+        block
+        detect
+    pathlib
+        Path
+    PIL
+        Image
+    imageio
+    tqdm
+    math
+    time
+Markdown
+Ignore
+

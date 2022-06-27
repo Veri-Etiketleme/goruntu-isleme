@@ -1,0 +1,3 @@
+Proje sahibinin açıklaması: "Az denemeli nesne algılama ölçütlerinin uygulamaları"
+
+"Implementations of few-shot object detection benchmarks"

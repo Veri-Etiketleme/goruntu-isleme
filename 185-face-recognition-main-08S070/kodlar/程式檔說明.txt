@@ -1,0 +1,17 @@
+------------------------------
+資料夾說明
+------------------------------
+face_dataset :放身分驗證的人臉圖片資料庫
+FaceMaskDetection :口罩辨識所需的檔案
+facial :臉部特徵偵測所需檔案
+net :身分驗證所需的檔案
+opencv_dnn : 人臉檢測權重檔
+utils :身分驗證所需的utils.py 管理身分驗證所需
+
+------------------------------
+檔案說明
+------------------------------
+align.py 人臉對齊檔案
+face_recognize.py 身分驗證檔案
+mulcam.py 跑的主要程式檔
+shape_predictor_68_face_landmarks.dat 用於人臉對齊

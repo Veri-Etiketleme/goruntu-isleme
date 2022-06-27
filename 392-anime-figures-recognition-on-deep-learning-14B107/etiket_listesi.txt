@@ -1,0 +1,16 @@
+Python
+	numpy
+		arange
+		array
+		concatenate
+		zeros
+	PIL
+		Image
+		open
+	matplotlib
+		plot
+		pyplot
+		show
+		subplot
+		ylabel
+	tensorflow

@@ -1,0 +1,34 @@
+PYTHON
+       numpy
+            transpose
+            array
+            matplotlib
+                      pyplot
+       tensorflow
+                 placeholder
+                 float32
+                 variable
+                 random_normal
+                 InteractiveSession
+                 ConfigProto
+                 global_variables_initializer
+       sklearn
+                 metrics  
+       os
+         path
+             exist
+             abspath
+       subprocess
+                 call
+      
+      
+      
+      
+       Fonksiyonlar
+       
+
+       if
+       else
+
+YARDIMCI TEKNOLOJİLER 
+.ipynb jupyter notebook teknolojisini kullanmıştır.

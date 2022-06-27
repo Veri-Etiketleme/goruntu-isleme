@@ -1,0 +1,9 @@
+Python
+    tensorflow
+    matplotlib
+        pyplot
+    numpy    
+    print
+        training_images
+            shape
+Markdown

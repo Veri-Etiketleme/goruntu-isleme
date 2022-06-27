@@ -1,0 +1,8 @@
+Bu projenin hedefleri/adımları şunlardır:
+
+Etiketli bir eğitim seti üzerinde Yönlendirilmiş Gradyanların Histogramı (HOG) özellik çıkarma işlemini gerçekleştirin ve bir sınıflandırıcı Doğrusal SVM sınıflandırıcı eğitin.
+HOG özellik vektörüne bir renk dönüşümü uygulayın ve ikili renk özellikleri ile renk histogramlarını ekleyin.
+Bu ilk iki adım için özelliklerin normalleştirilmesi ve eğitim ve test için bir seçimin rastgeleleştirilmesi gerekiyordu.
+Bir kayan pencere tekniği uygulayın ve görüntülerdeki araçları aramak için eğitimli sınıflandırıcı kullanın.
+Bir video akışında ardışık düzen çalıştırın ve aykırı değerleri reddetmek ve tespit edilen araçları takip etmek için kare kare yinelenen algılamaların bir ısı haritası oluşturun.
+Tespit edilen araçlar için bir sınırlayıcı kutu tahmin edin.

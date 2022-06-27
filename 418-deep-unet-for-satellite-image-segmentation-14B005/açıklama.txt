@@ -1,0 +1,1 @@
+Bu, uydu görüntüsü segmentasyonu gerçekleştiren derin bir UNet'in Keras tabanlı bir uygulamasıdır.

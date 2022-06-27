@@ -1,0 +1,5 @@
+Verilen görüntü verilerinden özellikleri (istenen uzunlukta bir vektör) çıkarmak için Python işlevi. Çıkarılan özellikler, Görüntü Sınıflandırma, Görsel Arama, Görüntü Altyazısı vb. gibi çeşitli amaçlar için kullanılabilir.
+
+Kodu çalıştırmak için burada verilen 3 örnek görüntüyü indirin (daha sonra Flicker8k'den alınan örnek veri kümesinde bir kez yaptıktan sonra kendi veri kümenizi kullanabilirsiniz). 3 görüntünün tümünü ex1,2,3 "Sample_Data" adlı bir klasöre koyun.
+
+Nihai özellikler, daha sonra sınıflandırma, görsel arama, resim yazısı veya resimlerin özelliklerini gerektiren diğer işler gibi farklı görevleri yapmak için kullanılabilecek feature.pkl dosyasında saklanacaktır.

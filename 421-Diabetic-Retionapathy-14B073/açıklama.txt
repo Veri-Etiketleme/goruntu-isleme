@@ -1,0 +1,1 @@
+SJSU'nun CMPE 188 projesi: Büyük Veri ile Makine Öğrenimi kursu. Modeller, retinanın yüksek çözünürlüklü görüntülerini 0 (sağlıklı) veya 1-4 (daha şiddetli diyabetik) olarak sınıflandırır. Modeller şunları içerir: gradyan artırma karar ağacı, SVM sınıflandırıcı, KNN sınıflandırıcı ve bir TensorFlow evrişimli sinir ağı.

@@ -1,0 +1,1 @@
+Bu, "Hiperspektral Görüntü Sınıflandırması için Derin Metrik Öğrenmeye Dayalı Özellik Gömme" bölümünde sunulan S-DMM ağının bir uygulamasıdır.

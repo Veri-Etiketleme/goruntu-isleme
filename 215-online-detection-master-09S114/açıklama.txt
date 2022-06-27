@@ -1,0 +1,1 @@
+Bu depo, Çevrimiçi Nesne Algılama ve Örnek Segmentasyonu projesi için gerçekleştirilen deneylerin kaynak kodunun python sürümünü içerir.

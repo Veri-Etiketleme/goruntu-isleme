@@ -1,0 +1,16 @@
+Python
+    cv2
+        waitKey
+        imshow
+        imread
+    numpy
+        sum
+        uint8
+        int16
+        sqrt
+        zeros
+        shape
+        unique
+    erosion
+    square
+    math

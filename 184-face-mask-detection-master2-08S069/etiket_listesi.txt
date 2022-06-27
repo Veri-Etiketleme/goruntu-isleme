@@ -1,0 +1,97 @@
+Python
+    numpy(np)
+        transpose
+        array
+        clip
+        random
+            seed
+    cv2   
+        CascadeClassifier
+        data    
+            haarcascades
+        cvtColor
+        COLOR_BGR2GRAY
+        namedWindow
+        rectangle
+        putText
+        imshow
+        waitKey
+        destroyWindow
+    torch
+        Tensor
+        nn
+            Module
+            Sequential
+            Conv2d
+            ReLU
+            MaxPool2d
+            Linear
+            CrossEntropyLoss
+        optim
+            lr_scheduler
+            Adam
+        device
+        cuda
+            is_available
+        utils
+            data
+                random_split
+                DataLoader
+        manual_seed
+        summary
+        save
+        max
+    torchvision
+        models
+            detection
+                fasterrcnn_mobilenet_v3_large_320_fpn
+        datasets
+        transforms
+            Compose
+            Resize
+            ToTensor
+            Normalize
+    PIL
+        Image(I)
+    Webcam
+        get_frame
+    Human_detector
+        detect
+    Mask_detector
+        classify
+        MaskConvNet
+    time
+    matplotlib
+        pyplot(plt)
+            imshow
+            title
+            show
+            plot
+            xlabel
+            ylabel
+            savefig
+    os
+    copy
+    google
+        colab
+            patches
+                cv2_imshow
+            drive
+    zipfile
+
+
+Functions
+    import
+    as
+    return
+    from 
+    for 
+    in
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+    Google
+
+
+
+YAML

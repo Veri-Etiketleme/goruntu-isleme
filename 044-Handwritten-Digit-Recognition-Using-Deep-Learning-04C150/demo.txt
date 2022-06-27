@@ -1,0 +1,4 @@
+https://github.com/kaustubhdevkar/Handwritten-Digit-Recognition-Using-Deep-Learning/blob/master/sample_image.jpg
+https://github.com/kaustubhdevkar/Handwritten-Digit-Recognition-Using-Deep-Learning/blob/master/result.jpg
+https://github.com/kaustubhdevkar/Handwritten-Digit-Recognition-Using-Deep-Learning/blob/master/sample_image2.jpg
+https://github.com/kaustubhdevkar/Handwritten-Digit-Recognition-Using-Deep-Learning/raw/master/result2.jpg

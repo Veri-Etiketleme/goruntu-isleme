@@ -1,0 +1,20 @@
+Python
+    cv2
+        VideoCapture
+        bitwise_and
+        cvtColor
+        destroyAllWindows
+        flip
+        imshow
+        imwrite
+        inRange
+        putText
+        waitKey
+    numpy
+        array
+        zeros
+    resizeimage
+    PIL
+    keras
+        models
+    operator

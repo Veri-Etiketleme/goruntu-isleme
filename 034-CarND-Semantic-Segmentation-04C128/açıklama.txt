@@ -1,0 +1,1 @@
+Bu projenin amacı, bir araba dashcam görüntüsünden sürülebilir yol alanını belirlemek için (KITTI veri setinde eğitilmiş ve test edilmiş) semantik segmentasyon gerçekleştirmek için VGG-16 görüntü sınıflandırıcı mimarisine dayalı tamamen evrişimli bir sinir ağı inşa etmektir.

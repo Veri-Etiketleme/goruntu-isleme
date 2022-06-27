@@ -1,0 +1,31 @@
+Python
+    pathlib
+    dataclasses
+    fuzzywuzzy
+        partial_ratio
+        ratio
+    urllib
+        request
+    shutil
+        copyfileobj
+    datetime
+        timedelta
+    cv2
+        VideoCapture
+    setuptools
+    future
+    typing
+    sys
+        exit
+    multiprocessing
+        Pool
+    pytesseract
+        image_to_data
+
+        api
+        download_lang_data
+        get_frame_index
+        get_srt_timestamp
+        models
+        opencv_adapter
+        video

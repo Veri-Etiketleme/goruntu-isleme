@@ -1,0 +1,1 @@
+Bu proje kendi kendini süren arabalar için kullanılan CNN'nin LE-NET Mimarisini kullanarak trafik işaretlerini sınıflandırmak için ML modeli kullanır.

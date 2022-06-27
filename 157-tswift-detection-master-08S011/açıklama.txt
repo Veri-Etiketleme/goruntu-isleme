@@ -1,0 +1,1 @@
+Taylor Swift dedektörü oluşturmak için TensorFlow Object Detection API ve Cloud ML Engine'i kullanma.

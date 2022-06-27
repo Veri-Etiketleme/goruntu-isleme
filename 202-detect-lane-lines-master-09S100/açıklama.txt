@@ -1,0 +1,1 @@
+Bir video akışında algılanan otoyol şerit çizgileri. Hatları belirlemek için Hough Dönüşümleri ve Canny kenar algılama dahil olmak üzere OpenCV görüntü analizi teknikleri kullanıldı.

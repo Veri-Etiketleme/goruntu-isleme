@@ -1,0 +1,1 @@
+Maskeleri algılamak için tensör akışı lite görüntü sınıflandırma modeline sahip bir çarpıntı uygulaması

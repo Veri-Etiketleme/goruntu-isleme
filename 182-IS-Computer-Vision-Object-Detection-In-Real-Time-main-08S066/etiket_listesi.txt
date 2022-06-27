@@ -1,0 +1,70 @@
+Python
+    os
+    pathlib
+    matplotlib
+        pyplot(plt)
+            figure
+            grid
+            imshow
+    io
+    tempfile
+        mkstemp
+    scipy
+        misc
+    numpy(np)
+        uint8
+        ceil
+        copyto
+        array
+    six
+        BytesIO
+    PIL
+        Image
+            open
+            convert
+            ANTIALIAS
+            size
+            decode_jpeg
+            fromarray
+            getdata
+        ImageDraw
+            Draw
+        ImageFont
+            load_default
+        ImageColor
+            colormap
+                values
+        ImageOps
+            fit
+    tensorflow(tf)
+        __version__
+        get_logger
+            setLevel
+        io
+          read_file  
+        image
+            decode_jpeg
+    tensorflow_hub(hub)
+        
+
+
+
+
+
+
+
+
+Functions
+    import
+    as
+    from
+    if
+    else
+    for 
+    in
+
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook

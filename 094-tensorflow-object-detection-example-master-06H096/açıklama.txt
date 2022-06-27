@@ -1,0 +1,1 @@
+Bu proje, bir nesne algılama hizmeti oluşturmak için TensorFlow Nesne Algılama API'sinin ve önceden eğitilmiş modellerin nasıl kullanılabileceğini gösteren örnek bir uygulamadır. 

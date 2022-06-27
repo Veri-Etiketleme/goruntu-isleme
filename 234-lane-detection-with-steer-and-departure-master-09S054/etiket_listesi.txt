@@ -1,0 +1,14 @@
+Python
+    cv2
+    numpy
+    os
+    scipy
+        optimize
+    matplotlib
+        pyplot
+    for
+        in
+    if
+    else
+Markdown
+Properties    

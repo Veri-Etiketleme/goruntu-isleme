@@ -1,0 +1,1 @@
+Bu, kütüphaneyle birlikte gönderilen önceden eğitilmiş bir derin öğrenme yüz dedektörü modelini kullanarak OpenCV ile hızlı ve doğru yüz algılama gerçekleştirerek yüz ifadelerini görüntülemek için Python 3 tabanlı bir projedir.

@@ -1,0 +1,1 @@
+Bir fotoğraftan bir sudoku bulmacası çıkarmaya ve çözmeye çalışan GUI Akıllı Sudoku Çözücü.

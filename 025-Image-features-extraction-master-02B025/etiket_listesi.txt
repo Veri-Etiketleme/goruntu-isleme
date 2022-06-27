@@ -1,0 +1,96 @@
+PYTHON 
+     
+        Numpy
+           nonzero
+           mean
+           vstack
+           linalg
+           corrcoef
+           nan_to_num
+           cov
+           argsort
+           var
+           arctan
+           maximum
+           exp
+
+
+        cv2
+           cvtColor
+           imread
+           GaussianBlur
+           COLOR_BGR2GRAY
+           Laplacian
+           CV_64F
+           threshold
+           THRESH_BINARY
+           Sobel
+           addWeighted             
+           CV_8U
+           Canny
+           Scharr 
+
+
+        matplotlib
+             pyplot 
+                imshow
+                show
+                figure
+                plot 
+                xlabel
+                ylabel
+                legend
+                show
+                text 
+
+
+        pandas 
+              concat
+              DataFrame
+
+
+        seaborn
+                         
+
+        glob
+
+
+        re 
+           findall 
+        
+
+        os 
+          listdir
+
+
+
+        sklearn
+              model_selection 
+                        train_test_split
+              linear_model
+                    LogisticRegression
+                           fit
+              feature_selection
+                        RFE   
+                          fit 
+              metrics   
+                   roc_curve
+                   auc   
+
+       statesmodels
+             formula 
+                   api 
+                      families
+                      Binomial     
+                      glm                  
+
+
+        scipy
+           stats
+           chi2
+              cdf  
+              ppf
+
+
+YARDIMCI TEKNOLOJİLER
+ Jupyter Notebook 

@@ -1,0 +1,13 @@
+# not upload these folder
+**/__pycache__
+face_dataset
+
+# not upload any models || zip rar files || any audio files
+**/*.hdf5
+**/*.h5
+**/*.dat
+**/*.whl
+**/*.exe
+
+# except these files
+#! xxx/*.py

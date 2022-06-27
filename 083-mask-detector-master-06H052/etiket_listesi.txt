@@ -1,0 +1,32 @@
+Python
+    numpy 
+        array
+        float32
+    cv2
+        imshow
+        waitKey
+        putText
+        FONT_HERSEY_SIMPLEX
+        rectangle
+        cvtColor
+        COLOR_BGR2RGB
+        VideoCapture
+        resize
+        INTER_LINEAR
+        dnn
+            blobFromImage
+            readNet 
+    fastai
+        vision 
+        metrics 
+            error_rate 
+Fonksiyonlar
+    
+    range 
+    min 
+    max 
+    str 
+
+Yardımcı Teknolojiler 
+
+    Jupyter Notebook 

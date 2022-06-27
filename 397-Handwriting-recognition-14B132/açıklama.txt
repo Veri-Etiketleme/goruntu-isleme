@@ -1,0 +1,1 @@
+handwriting_recognition için basit derin öğrenme projesi

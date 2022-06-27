@@ -1,0 +1,55 @@
+Python 
+
+    warnings 
+        filterwarning
+    pickle 
+        load
+    seaborn 
+        heatmap
+    pandas 
+    numpy 
+        sum 
+        arange 
+    matplotlib
+        pyplot
+            imshow
+            show 
+            subplots
+            subplots_adjust
+            plot 
+            title 
+            legend
+            figure 
+
+    random 
+    sklearn 
+        metrics 
+            confusion_matrix  
+        utils
+            shuffle 
+    keras 
+        models 
+            Sequential
+        layers
+            Conv2D
+            MaxPooling2D
+            AveragePooling2D
+            Dense
+            Flatten
+            Dropout
+        optimizers
+            Adam 
+        callbacks
+            TensorBoard
+
+Fonksiyonlar
+    
+    open 
+    print 
+    range 
+    len 
+
+
+Yardımcı Teknolojiler
+
+    Jupyter Notebook 

@@ -1,0 +1,79 @@
+Python
+    keras
+        models
+            load_model
+            Sequential
+        preprocessing
+            image
+                img_to_array
+        layers
+            Dense
+            Input
+            Dropout
+            GlobalAveragePooling2D
+            Flatten
+            Conv2D
+            BatchNormalization
+            Activation
+            MaxPooling2D
+        optimizers
+            Adam
+            SGD
+            RMSprop
+        callbacks
+            ModelCheckpoint
+            ReduceLROnPlateau
+            EarlyStopping
+    time
+        sleep
+    cv2
+        CascadeClassifier
+        VideoCapture
+        cvtColor
+        COLOR_BGR2GRAY
+        rectangle
+        resize
+        INTER_AREA
+        putText
+        FONT_HERSHEY_SIMPLEX
+        imshow
+        waitKey
+        destroyAllWindows
+    numpy(np)
+        sum
+        expand_dims
+    matplotlib
+        pyplot(plt)
+            figure
+            subplot
+            imshow
+            show
+    pandas(pd)
+    seaborn(sns)
+    os
+        listdir
+
+
+
+
+
+
+
+Functions
+    from
+    import
+    as
+    while
+    in
+    for 
+    if
+    else
+    break
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+
+
+XML

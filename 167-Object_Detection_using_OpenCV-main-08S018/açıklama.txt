@@ -1,0 +1,1 @@
+OpenCV, bilgisayarla görü, makine öğrenimi ve görüntü işleme için devasa bir açık kaynak kitaplığıdır ve şimdi günümüz sistemlerinde çok önemli olan gerçek zamanlı operasyonda önemli bir rol oynamaktadır. Bunu kullanarak, nesneleri, yüzleri ve hatta bir insanın el yazısını tanımlamak için görüntüleri ve videoları işleyebilirsiniz. Bu Proje nesneleri algılamaya odaklanır.

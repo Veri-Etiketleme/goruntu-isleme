@@ -1,0 +1,8 @@
+Python
+    cv2
+        CascadeClassifier
+        cvtColor
+        imread
+        imshow
+        resize
+        waitKey

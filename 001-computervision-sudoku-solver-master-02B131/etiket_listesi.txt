@@ -1,0 +1,105 @@
+PYTHON 
+
+
+    keras
+        datasets
+             mnist
+        models
+             Squential
+        layers
+              Dense
+              Dropout
+              Flatten
+              Conv2d
+              MaxPooling2D
+        backend
+               image_data_format      
+                  
+       
+
+
+
+    tensorflow
+            
+
+
+
+    cv2
+      imshow
+      waitKey
+      cvtColor
+      COLOR_BGR2GRAY
+      GaussianBlur
+      adaptiveThreshold
+      bitwise_not
+      dilate
+      THRESH_BINARY
+      ADAPTIVE_THRESH_MEAN_C
+      findContours
+      RETR_EXTERNAL
+      contourArea
+      CHAIN_APPROX_SIMPLE
+      COLOR_GRAY2BGR
+      circle
+      warpPerspective
+      getPerspectiveTransform
+      rectangle
+      copyMakeBorder
+      resize
+      BORDER_CONSTANT
+      floodFill
+      putText
+      imread
+      destroyAllWindows
+
+
+
+
+
+
+    seaborn
+
+
+
+    numpy
+        ones
+        sqrt
+        array
+        zeros
+        uint8
+        mean 
+        float32
+        asarray
+        sum
+        reshape
+
+                    
+   operator
+       itemgetter
+
+    
+    solve_sudoku
+            solve 
+
+
+
+    pytesseract
+             image_to_string
+
+
+
+
+                KOŞULLAR
+
+                    if 
+                    else
+
+
+                DÖNGÜLER   
+
+                    return 
+                    expect
+                    for 
+                    in 
+                    try 
+

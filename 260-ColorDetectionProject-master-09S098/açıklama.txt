@@ -1,0 +1,1 @@
+OpenCV ve Pandalar kullanarak bir görüntüdeki renkleri algılamak için Python komut satırı uygulaması.

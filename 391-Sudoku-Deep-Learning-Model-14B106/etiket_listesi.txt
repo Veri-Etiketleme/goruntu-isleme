@@ -1,0 +1,32 @@
+Python
+	cv2
+		GaussianBlur
+		VideoCapture
+		VideoWriter
+		VideoWriter_fourcc
+		adaptiveThreshold
+		add
+		approxPolyDP
+		arcLength
+		bitwise_and
+		bitwise_not
+		contourArea
+		cvtColor
+		drawContours
+		findContours
+		getPerspectiveTransform
+		imshow
+		imwrite
+		putText
+		resize
+		threshold
+		waitKey
+		warpPerspective
+	numpy
+		float32
+		vstack
+		zeros
+	operator
+	keras
+		models
+

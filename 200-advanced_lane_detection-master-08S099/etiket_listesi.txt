@@ -1,0 +1,81 @@
+Python
+    numpy(np)
+        zeros
+        float32
+        mgrid
+        absolute
+        uint8
+        max
+        zeros_like
+        sqrt
+        pi
+        arctan2
+        sum
+        dstack
+        int
+        argmax
+        flipud
+        array
+        int_
+        mean
+        concatenate
+        polyfit
+        linspace
+        transpose
+        vstack
+        hstack
+    cv2
+        imread
+        cvtColor
+        COLOR_BGR2GRAY
+        findChessboardCorners
+        calibrateCamera
+        fillPoly
+        undistort
+        Sobel
+        COLOR_RGB2HLS
+        CV_64F
+        putText
+        rectangle
+        addWeighted
+        warpPerspective
+    matplotlib
+        pyplot(plt)
+            imshow
+            savefig
+            subplot
+            tight_layout
+            show
+            gcf
+            xlim
+            ylim
+        image(mpimg)
+            imread
+    pickle
+        dump
+    os
+        listdir
+    combined_thresh
+    perspective_transform
+    line_fit
+        viz2
+        calc_curve
+        final_viz
+    moviepy
+        editor
+            VideoFileClip
+
+
+
+
+
+Functions
+    if
+    return
+    else
+    with
+    import
+    as
+    for 
+    in
+    from

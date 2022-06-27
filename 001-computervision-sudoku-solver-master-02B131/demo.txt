@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/carlostling/computervision-sudoku-solver/master/demo_images/initial.jpg

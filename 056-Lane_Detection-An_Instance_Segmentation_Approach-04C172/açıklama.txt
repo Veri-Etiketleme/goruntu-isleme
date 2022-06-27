@@ -1,0 +1,1 @@
+Bu, bir PyTorch uygulaması ve "Uçtan Uca Şerit Tespitine Doğru: Bir Örnek Segmentasyon Yaklaşımı" makalesinin bir varyasyonudur.

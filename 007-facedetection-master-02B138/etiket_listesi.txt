@@ -1,0 +1,31 @@
+PYTHON 
+    
+
+    cv2 
+      CascadeClassifier
+      COLOR_BGR2GRAY
+      cvtColor
+      imread
+
+
+
+    time
+       clock_gettime 
+
+
+    sys
+      argv
+
+
+
+       DÖNGÜLER
+        for
+        in 
+        break
+        return
+
+
+    KOŞULLAR
+        if  
+
+   XML     

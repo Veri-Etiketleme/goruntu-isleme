@@ -1,0 +1,21 @@
+Python
+	pytool
+		detection
+	scipy
+		cdist
+		spatial
+	numpy
+		argmax
+		array
+	argparse
+		ArgumentParser
+	imutils
+		resize
+	cv2
+		VideoCapture
+		VideoWriter
+		VideoWriter_fourcc
+		waitKey
+	os
+
+		social_distancing_config

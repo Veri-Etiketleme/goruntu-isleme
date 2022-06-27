@@ -1,0 +1,1 @@
+Bu proje nesnelerin dış hatlarını optimize etmeye yardımcı olur.

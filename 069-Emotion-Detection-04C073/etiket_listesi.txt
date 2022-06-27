@@ -1,0 +1,23 @@
+Python
+    time
+    cv2
+        CascadeClassifier
+        VideoCapture
+        cvtColor
+        imshow
+        putText
+        rectangle
+        resize
+        waitKey
+    numpy
+        expand_dims
+        sum
+    keras
+        applications
+        callbacks
+        image
+        layers
+        models
+        normalization
+        optimizers
+        preprocessing

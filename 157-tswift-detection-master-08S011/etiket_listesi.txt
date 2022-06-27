@@ -1,0 +1,54 @@
+Python
+    __future__
+        division
+        print_function
+        absolute_import
+    argparse
+        ArgumentParser
+    os
+        getcwd
+        listdir
+        fsdecode
+        path
+            splitext
+    PIL
+        Image
+            open
+            size
+            resize
+            save
+    io
+        BytesIO
+    xml
+        etree
+            ElementTree(ET)
+                parse
+    tensorflow(tf)
+        app
+            flags
+            run
+        train
+            Example
+            Features
+        python_io
+            TFRecordWriter
+    object_detection
+        utils
+            dataset_util
+                int64_feature
+                bytes_feature
+                float_list_feature
+                bytes_list_feature
+                int64_list_feature
+    PIL
+         open
+
+Döngüler
+Koşullar
+JavaScript
+json
+Swift
+png
+gif
+Podfile
+xml

@@ -1,0 +1,15 @@
+Python
+    cv2
+        CascadeClassifier
+        VideoCapture
+        cvtColor
+        waitKey
+    imutils
+    time
+    numpy
+        array
+    os
+        walk
+    PIL
+        open
+    pickle

@@ -1,0 +1,3 @@
+Bir lojistik regresyon modeli oluşturmak için
+ opencv ve farklı çekirdekler kullanarak görüntülerden özellikler 
+ çıkarmak amaçlı yazılan bir proje.

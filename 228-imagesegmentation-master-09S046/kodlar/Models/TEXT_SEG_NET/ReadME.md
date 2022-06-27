@@ -1,0 +1,1 @@
+The model is not complete. Initial data preperation code is completed and a simple test has been done using vallila FCN8s model.

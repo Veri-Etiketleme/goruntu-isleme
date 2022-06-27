@@ -1,0 +1,16 @@
+Python
+    tensorflow(tf)
+        gfile
+           FastGFile 
+           GFile
+    GraphDef
+        ParseFromString
+    Session
+    import_graph_def
+    sys
+        argv
+Functions
+    import 
+    as
+    with
+    for

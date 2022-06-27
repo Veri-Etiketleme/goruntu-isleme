@@ -1,0 +1,1 @@
+PyTorch'ta hızlı ve doğru insan pozu tahmini. "CPU'da Gerçek Zamanlı 2D Çok Kişili Poz Tahmini: Hafif OpenPose" kağıdının uygulamasını içerir.

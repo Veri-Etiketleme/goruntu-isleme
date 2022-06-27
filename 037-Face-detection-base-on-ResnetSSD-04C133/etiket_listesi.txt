@@ -1,0 +1,18 @@
+Python
+    numpy
+        array
+    cv2
+        VideoCapture
+        VideoWriter
+        VideoWriter_fourcc
+        destroyAllWindows
+        imread
+        imshow
+        putText
+        rectangle
+        resize
+        waitKey
+    os
+    imutils
+        video
+    time

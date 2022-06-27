@@ -1,0 +1,161 @@
+PYTHON 
+    
+    torch 
+      utils
+         data 
+            Dataset
+            DataLoader
+     nn
+       functional    
+       Conv2d
+       Linear
+       init
+       CrossEntropyLoss
+         kaiming_normal 
+       BatchNorm2d  
+     cuda
+           manual_seed_all     
+     manual_seed    
+     backends
+           cudnn
+               benchmark 
+     optim 
+        Adam 
+        lr_scheduler
+                  StepLR
+     autograd    
+           Variable            
+
+
+
+
+    torchvision
+            transform
+                    Resize
+                    ToTensor
+                    RandomRotation
+                    RandomHorizontalFlip
+                    Normalize
+                    RandomAffine
+                    Compose
+
+
+    
+    config
+        config 
+
+
+    PIL
+       Image
+       ImageEnhance
+       ImageFilter
+       ImageOps
+
+    itertools 
+            chain 
+
+
+
+    glob
+       glob 
+
+
+
+    tqdm
+      tqdm 
+
+
+    random                        
+         seed 
+         uniform
+
+
+    numpy
+       random 
+           seed 
+
+
+    pandas
+        DataFrame
+
+
+
+    os
+      listdir
+      makedirs
+      sep 
+      mkdir 
+      path
+         basename
+         exists
+
+
+    
+    shutil
+        copy 
+
+
+    cv2
+      imwrite
+      imread
+   
+
+
+    skimage
+         util
+           random_noise
+         exposure
+               adjust_gamma
+
+
+
+   time 
+     time 
+     sleep 
+
+
+    json 
+      dump
+
+
+    warnings    
+         filterwarnings
+
+
+    datetime
+         datetime 
+
+    collections
+           OrderedDict
+
+     
+
+   sklearn
+       model_selection
+                    train_test_split
+                    StratifiedKFold
+
+    
+
+    timeit
+         default_timer
+
+
+
+
+
+
+KOŞULLAR
+ if
+ else
+ elif 
+
+
+DÖNGÜLER
+for 
+in 
+pass 
+expect
+continue
+ return 
+

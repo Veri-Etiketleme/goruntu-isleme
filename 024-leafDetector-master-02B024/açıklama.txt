@@ -1,0 +1,2 @@
+NVIDIA DIGITS ve TensorFlow kullanarak ML 
+kullanarak yaprakları algılama.

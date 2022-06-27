@@ -1,0 +1,14 @@
+Python
+    sys
+    os
+    argparse
+    math
+    PIL
+        Image
+        ImageDraw
+    if
+    else
+    for
+        in
+Ignore
+Properties       

@@ -1,0 +1,3 @@
+Google'ın Makine Öğrenimi kitaplığını, Tensorflow'u ve Inception adlı önceden 
+eğitilmiş Derin Öğrenme Evrişimli 
+Sinir Ağı modelini kullanan genel bir görüntü algılama programı.

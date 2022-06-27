@@ -1,0 +1,97 @@
+Python
+    os
+        path(p_join)
+            join
+            dirname
+            exists
+            basename
+            splitext
+        getcwd
+        mkdir
+        listdir
+    sys
+        path
+            insert
+        modules
+    inspect
+        getfile
+        currentframe
+    mock
+    damagescanner
+        core
+            RasterScanner
+            VectorScanner
+        sensitivity_analysis
+            run
+        vector
+            get_losses
+        raster
+            match
+    numpy(np)
+        array
+        concatenate
+        transpose
+        int32
+        zeros
+        ndarray
+        nan
+        mean
+        vectorize
+    pandas(pd)
+        DataFrame
+        read_csv
+        GeoDataFrame
+        cut
+        concat
+    pkg_resources
+        get_distribution
+    rasterio
+        mask
+        features
+            shapes
+        plot
+            show
+    geopandas(gpd)
+    affine
+    tqdm
+    shapely
+        geometry 
+            mapping
+        wkb
+            loads
+    warnings
+        warn
+    matplotlib
+        colors
+            LinearSegmentedColormap
+        patches
+            Patch
+        pyplot(plt)
+            subplots
+    osgeo
+        gdal
+    scipy
+        integrate
+    setuptools
+        find_packages
+        setup
+Functions
+    import
+    for
+    in 
+    try
+    except
+    return
+    with
+    from
+    elif
+    raise
+    as 
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+
+
+Makefile
+YAML

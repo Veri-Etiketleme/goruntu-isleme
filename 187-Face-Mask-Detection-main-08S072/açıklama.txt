@@ -1,0 +1,1 @@
+Kapının yalnızca bir insan maske taktığında açılmasına izin vermek için görüntü tabanlı bir otomatik kapı giriş sistemi inşa etti. YOLO kullanarak insan algılama VIOLA JONES kullanarak yüz algılama CNN mimarisini kullanarak Maske Algılama (Max Pooling, conv, FC ve softmax() )

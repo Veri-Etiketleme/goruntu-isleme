@@ -1,0 +1,1 @@
+Bu proje, YOLOv3 modeline dayalı Derin Öğrenme Nesnesi Algılama için bir GUI projesidir.

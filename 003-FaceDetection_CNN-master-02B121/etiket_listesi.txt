@@ -1,0 +1,88 @@
+ PYTHON
+    
+ PIL 
+        Image
+        ImageDraw
+        ImageFont
+
+
+
+
+
+   numpy
+         array 
+         float64
+         ndenumerate
+         maximum 
+         argsort
+         where
+         zeros
+         maximum 
+         delete
+         concatenate
+         asarray 
+
+
+
+
+
+    random 
+         random 
+
+
+
+
+
+    matplotlib
+            pyplot 
+                subplot
+                imshow
+                axis
+                title
+                tight_layout
+                figure
+
+
+
+
+
+    sys 
+         path
+            insert
+      
+
+
+
+   os
+        environ
+               get
+
+
+    operator
+
+
+
+    math 
+       pow 
+
+
+
+
+    caffe
+       set_device
+       set_mode_gpu 
+
+
+
+
+          KOŞULLAR
+             if
+             else
+             elif 
+
+
+
+           DÖNGÜLER
+             return 
+             for
+             in 

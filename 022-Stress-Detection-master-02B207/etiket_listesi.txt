@@ -1,0 +1,107 @@
+PYTHON
+    
+     
+      scipy
+          spatial
+                 distance 
+                         euclidean
+
+       
+       dlib
+         get_frontal_face_detector
+         shape_predictor
+
+
+
+
+       imutils
+             video  
+                VideoStream
+             face_utils  
+                FACIAL_LANDMARKS_IDXS 
+                shape_to_np
+             resize   
+
+
+
+
+        numpy         
+            expand_dims
+            max
+            exp 
+            min 
+
+
+
+        time
+
+
+
+        cv2
+          VideoCapture
+          flip
+          COLOR_BGR2GRAY
+          convexHull
+          createCLAHE
+          cvtColor
+          drawContours
+          putText
+          imshow
+          waitKey
+          destroyAllWindows
+
+
+
+        keras
+             callbacks     
+                    CSVLogger
+                    ModelCheckpoint
+                    EarlyStopping  
+                    ReduceLROnPlateau
+             preprocessing
+                       image 
+                          ImageDataGenerator   
+                           img_to_array
+             models 
+                 load_model                 
+
+
+
+
+        load_and_process                  
+                load_fer2013
+                preprocess_input
+
+
+
+
+       models
+              cnn     
+                mini_XCEPTION  
+
+
+
+
+        sklearn
+             model_selection 
+                       train_test_split       
+
+
+
+        matplotlib
+                pyplot       
+                    plot 
+                    title 
+                    show
+
+
+KOŞULLAR
+       if 
+       else 
+       while
+
+DÖNGÜLER
+       break 
+       return
+       for 
+       in

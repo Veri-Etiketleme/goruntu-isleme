@@ -1,0 +1,19 @@
+Python
+	task1_main
+	nose
+		run
+	pickle
+		load
+	cv2
+		approxPolyDP
+		cvtColor
+		findContours
+		getStructuringElement
+		imshow
+		inRange
+		morphologyEx
+		resize
+		threshold
+	numpy
+		array
+		where

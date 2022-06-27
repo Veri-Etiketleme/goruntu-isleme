@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="lane_detection" type="main.py" name="lane_detection_node" output="screen"> 
+
+      
+      <param name="frequency" value="30"/> 
+      <param name="sensor_timeout" value="0.1"/> 
+
+      <!-- thresholding param value -->
+      
+      <param name="_abs_sobel_thresh_min" value="70"/> 
+      <param name="_abs_sobel_thresh_max" value="240"/> 
+
+      <param name="_mag_thresh_min" value="72"/>
+      <param name="_mag_thresh_max" value="240"/>
+
+      <param name="_dir_threshold_min" value="0.35"/> 
+      <param name="_dir_threshold_max" value="1.57"/> 
+
+      <param name="_hls_thresh_min" value="100"/> 
+      <param name="_hls_thresh_max" value="250"/>
+
+    </node>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lane_detection)/rviz/view_image.rviz"/>
+</launch>

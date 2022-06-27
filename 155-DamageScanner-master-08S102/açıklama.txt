@@ -1,0 +1,1 @@
+Doğal afetler için doğrudan hasar değerlendirmeleri yapmak için Python araç seti.

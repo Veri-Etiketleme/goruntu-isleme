@@ -1,0 +1,38 @@
+Python
+    cv2
+        VideoCapture
+        CascadeClassifier
+        cvtColor
+        COLOR_BGR2GRAY
+        resize
+        rectangle
+        imshow
+        waitKey
+        FONT_HERSHEY_SIMPLEX
+        destroyAllWindows
+    numpy(np)
+        reshape
+        vstack
+        argmax
+    tensorflow(tf)
+        compat
+            v1
+                ConfigProto
+                InteractiveSession
+        __version__
+    glob
+
+Functions
+    import
+    from 
+    while
+    if
+    break
+    in
+    as 
+
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook

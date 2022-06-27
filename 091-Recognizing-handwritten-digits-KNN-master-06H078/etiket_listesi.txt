@@ -1,0 +1,35 @@
+Python 
+    __future__
+        print_function
+    sklearn
+        model_selection
+            train_test_split
+        neighbors
+            KNeighborsClassifier
+        metrics
+            classification_report
+        datasets
+            load_digits
+    skimage
+        rescale_intensity
+    numpy
+        array
+        argmax
+        random
+            randint
+    imutils
+        resize
+    cv2
+        INTER_CUBIC
+        imshow
+        waitKey
+
+Fonksiyonlar 
+
+    print
+    len
+    range
+
+Yardımcı Teknolojiler 
+ 
+    -

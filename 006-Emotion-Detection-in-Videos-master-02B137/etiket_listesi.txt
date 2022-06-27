@@ -1,0 +1,92 @@
+PYTHON
+    
+
+     cPickle
+           pickle 
+
+
+
+
+     numpy
+        load
+        arange
+        set_printoptions
+        newaxis
+
+
+
+     matplotlib
+            pyplot   
+               imshow
+               title
+               colorbar
+               xticks
+               yticks
+               tight_layout
+               xlabel
+               ylabel
+               figure
+               show
+
+
+
+     sklearn
+         svm
+         datasets
+         cross_validation
+                      train_test_split
+         metrics
+             confusion_matrix
+         naive_bayes    
+               GaussianNB 
+               MultinomialNB
+
+
+
+      cv2
+         rectangle
+         CascadeClassifier
+         VideoWriter
+         CV_CAP_PROP_FRAME_WIDTH 
+         VideoWriter_fourcc
+         cvtColor
+         COLOR_BGR2GRAY
+         destroyAllWindows
+         INTER_CUBIC
+         equalizeHist
+        
+
+     ntpath
+         basename
+
+
+      glob    
+         glob
+
+
+      video
+          create_capture    
+          
+
+
+      common    
+         clock
+         draw_str
+         
+
+
+       random  
+           shuffle
+
+
+
+
+KOŞULLAR
+if
+while
+
+DÖNGÜLER
+break 
+for 
+in 
+with 

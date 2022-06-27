@@ -1,0 +1,63 @@
+Python
+	pandas
+		read_csv 
+	os
+		remove
+	sys
+		exit
+	shutil
+	cv2
+		resize
+		split
+		astype
+		destroyAllWindows
+		Laplacian
+		morphologyEx
+		waitKey
+		createCLAHE
+		medianBlur
+		imshow
+		threshold
+		circle
+		imread
+		subtract
+		erode
+		GaussianBlur
+		cvtColor
+		merge
+		adaptiveThreshold
+		dilate
+	csv
+		writer
+	numpy
+		unique
+		round
+		shape
+		astype
+		concatenate
+		ones
+
+	pickle
+		load
+		dump
+	
+	fromsklearnsvm
+	metrics
+	sifier
+	plt
+		xlabel
+		ylabel
+		plot
+		axhline
+		title
+		show
+		axvline
+	pickle
+		load
+		dump
+
+Yardımcı Teknolojiler
+	Vscode
+
+Algoritmalar
+	-

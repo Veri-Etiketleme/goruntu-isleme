@@ -1,0 +1,8 @@
+Python
+    cv2
+        imshow
+        putText
+        rectangle
+        waitKey
+    math
+    argparse

@@ -1,0 +1,2 @@
+Hakkında
+MNIST rakam sınıflandırması "Python" projesi, makinelerin el yazısı rakamları tanımasını sağlar. Bu proje bilgisayarla görme için çok faydalı olabilir. Burada, Konvolüsyonel Sinir Ağlarını kullanarak modeli eğitmek için MNIST veri kümelerini kullanacağız.

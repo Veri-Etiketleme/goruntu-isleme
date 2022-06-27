@@ -1,0 +1,114 @@
+PYTHON 
+
+
+    numpy
+        array 
+
+      
+
+
+
+    cv2
+      rectangle 
+      HOGDescriptor
+      VideoCapture
+      HOGDescriptor_getDefaultPeopleDetector
+      imshow
+      waitKey
+      destroyAllWindows
+      release
+      imread
+      imwrite
+      resize
+
+
+
+    sys   
+
+
+
+    glob
+        glob
+
+
+
+    itertools     
+
+
+
+
+    skimage
+        feature
+             hog 
+              setSVMDetector
+       transform
+               pyramid_gaussian 
+        color
+        data
+        exposure  
+        io 
+          imread         
+
+
+
+    imutils
+          object_detection   
+                     non_max_suppression 
+
+
+    os 
+      listdir
+
+                      
+
+
+  sklearn
+        externals      
+             joblib
+                  load     
+        preprocessing      
+                  LabelEncoder        
+        svm
+           LinearSVC 
+        metrics  
+             classification_report
+        cross_validation  
+             train_test_split          
+    
+
+
+
+    argparse
+
+
+
+    PIL 
+      Image 
+          open 
+
+
+
+    matplotlib
+             pyplot     
+                  subplots
+                  cm
+                    gray
+                  show  
+
+
+
+
+
+
+DÖNGÜLER
+     for 
+     in 
+     yield 
+     break
+     return 
+
+
+   KOŞULLAR
+     if 
+     else 
+     while

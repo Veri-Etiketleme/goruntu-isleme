@@ -1,0 +1,84 @@
+PYTHON 
+  
+
+
+  
+    os
+     path
+        join
+     listdir
+
+
+
+
+    timeit
+             
+
+
+
+
+    cv2         
+
+
+    skimage
+         io 
+           imread
+
+
+
+
+    face_recognition       
+              face_encodings 
+
+
+
+    pickle
+        dump 
+        load
+
+
+
+
+    tqdm 
+      tqdm               
+      
+
+
+
+    sklearn
+          datasets
+          svm 
+             SVC
+          metrics  
+               classification_report
+               confusion_matrix
+
+
+
+
+
+    matplotlib
+             pyplot
+                 title 
+                 imshow
+                 show
+
+
+
+    random
+          shuffle
+
+ 
+KOŞULLAR
+          if 
+          else
+
+DÖNGÜLER           
+           expect
+           continue
+           with
+           for 
+           in 
+
+YARDIMCI TEKNOLOJİLER
+Jupyter Notebook

@@ -1,0 +1,1 @@
+Hakkında Bu Python projesi Yapay Sinir Ağı kullanarak El Yazısı Basamakları Tanır

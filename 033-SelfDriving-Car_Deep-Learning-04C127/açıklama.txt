@@ -1,0 +1,3 @@
+Project Autopilot, kendi kendini süren bir arabada direksiyon dönüş açısının elde edilmesine yardımcı olur. Bu proje, NVIDIA Uçtan Uca Kendi Kendini Kullanan Arabalar için Öğrenme'den esinlenmiştir ve veriler Udacity'nin Davranışsal Klonlama deposundan toplanmıştır. Python'da yazılmıştır ve Derin Öğrenme işlevleri için Keras'tan yararlanmıştır.
+
+Kendi Kendini Süren Arabalar için Uçtan Uca Öğrenme araştırma makalesi aşağıdaki tabloda bulunabilir. Bu depo, yola göre direksiyon açısını tahmin etmek için Evrişimli Sinir Ağlarını kullanır.

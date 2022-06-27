@@ -1,0 +1,1 @@
+OpenCV ve Python kullanarak arka plan çıkarma ile basit bir Parmak Algılama (veya Hareket Tanıma) 简单手势识别

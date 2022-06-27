@@ -1,0 +1,1 @@
+Python ve R (Lojistik Regresyon, Karar Ağacı, Rastgele Orman, SVM) Kullanan Denetimli Makine Öğrenimi Sınıflandırma Algoritmaları

@@ -1,0 +1,1 @@
+GoogLeNet ve AlexNet'e dayalı Çevrimdışı El Yazısı Çince Karakter Tanıma

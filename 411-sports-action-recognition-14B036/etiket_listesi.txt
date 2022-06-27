@@ -1,0 +1,21 @@
+Python
+	numpy
+		concatenate
+		concatenate 
+		delete
+		insert
+		sort
+	cv2
+		HOGDescriptor
+		SIFT
+		imread
+	sys
+	os
+		listdir
+	glob
+		glob
+	sklearn
+		SVC
+		ensemble
+	scipy
+		stats

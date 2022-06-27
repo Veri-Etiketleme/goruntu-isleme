@@ -1,0 +1,10 @@
+Python
+    cv2
+        flip
+        imshow
+        putText
+        rectangle
+        resize
+        waitKey
+    math
+    argparse

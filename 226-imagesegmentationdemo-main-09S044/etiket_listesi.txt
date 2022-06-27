@@ -1,0 +1,17 @@
+Python
+    torchvision
+        models
+    PIL
+        Image
+    matplotlib
+        pyplot
+    torch
+    torchvision
+        transforms
+    numpy
+    for
+        in
+    if
+XML
+Properties
+   

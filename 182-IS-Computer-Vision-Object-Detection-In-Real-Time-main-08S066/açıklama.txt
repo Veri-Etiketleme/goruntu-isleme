@@ -1,0 +1,1 @@
+Fikir, görüntü algılama hakkında daha fazla bilgi edinmektir. Bu deneyde, görüntü algılama için iki tür modeli (SSD ve Faster R-CNN) öğrenmek ve eğitmek için örnek oluşturuyorum.

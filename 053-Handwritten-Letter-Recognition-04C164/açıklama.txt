@@ -1,0 +1,1 @@
+Bu, el yazısı harfleri tanımayı öğrenen bir sinir ağı uygulayan bir bilgisayar programıdır. Bu program hem OpenCV hem de Derin Öğrenmeyi kullanır. OpenCv ekrandaki harflerin çizilmesi için, benim eğitimli modelim ise çizimin harflerini tahmin etmek için kullanılıyor.

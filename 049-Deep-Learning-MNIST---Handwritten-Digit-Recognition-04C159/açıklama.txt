@@ -1,0 +1,2 @@
+Bir Doğruluk ile keras kullanan çok katmanlı sinir ağı uygulaması: ortalama=98.960 std=0.097, n=5 5-çapraz kat Doğrulama kullanarak ve 99.13 yerleşik değerlendirmesini kullanarak
+MNIST (Modified National Institute of Standards and Technology veritabanı), muhtemelen makine öğrenimi ve derin öğrenme meraklıları arasında en popüler veri kümelerinden biridir. MNIST veri kümesi, 0'dan 9'a kadar el yazısıyla yazılmış rakamların 60.000 küçük kare 28×28 piksel gri tonlamalı eğitim görüntüsünü ve test için 10.000 görüntü içerir. Yani MNIST veri setinde 10 farklı sınıf bulunmaktadır.

@@ -1,0 +1,8 @@
+Python
+	cv2
+		CascadeClassifier
+		VideoCapture
+		cvtColor
+		imshow
+		rectangle
+		waitKey

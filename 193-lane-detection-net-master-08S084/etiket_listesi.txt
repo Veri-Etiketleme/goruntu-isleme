@@ -1,0 +1,75 @@
+Python
+    socket
+        AF_INET
+        SOCK_DGRAM
+    cv2
+        imread
+        resize
+        cvtColor
+        COLOR_RGB2GRAY
+        COLOR_BGR2RGB
+    tensorflow(tf)
+        python
+            keras
+                preprocessing
+                    image
+                        img_to_array
+                models
+                    load_model
+    random
+         choice  
+    binascii
+        unhexlify
+    io
+        BytesIO
+    imutils
+        paths
+    numpy(np)
+        array
+    sources
+        classification
+            config
+            model
+                TrafficSignNet
+        utils
+            filter_frame    
+                birdeye
+    PIL
+        Image
+    os
+        path
+            sep
+    matplotlib
+        pyplot(plt)
+                figure
+                xlabel
+                imshow  
+                show
+    time   
+    argparse  
+        ArgumentParser
+    sklearn
+        model_selection
+            train_test_split
+    pickle
+        dumps
+
+
+Functions
+    import
+    from
+    as
+    if
+    in 
+    assert
+    finally
+    try 
+    break
+    else
+    for 
+    with
+    return
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook

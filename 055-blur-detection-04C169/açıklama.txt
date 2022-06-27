@@ -1,0 +1,1 @@
+Bu bulanıklık algılama python betiği, Adrian Rosebrock tarafından hazırlanan bu öğreticinin uygulama sonucudur. Laplacian'ın varyans yönteminin hesaplanmasını kullanarak bulanıklık miktarını tespit edebilirsiniz.

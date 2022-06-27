@@ -1,0 +1,43 @@
+Python
+    flask
+        Flask 
+        flash
+        request
+        redirect
+        url_for
+        render_template
+    os
+    app
+        app
+    urllib
+        request
+    werkzeug
+        utils
+            secure_filename
+    cv2
+        FONT_HERSHEY_SIMPLEX
+        dnn
+            readNet
+            blobFromImage
+            NMSBoxes
+        VideoCapture
+        resize
+        rectangle
+        putText
+        imshow
+        waitKey
+        destroyAllWindows
+    numpy(np)
+        random
+            uniform
+        argmax
+    matplotlib
+        pyplot(plt)
+    time
+Döngüler
+Koşullar
+
+HTML
+CSS
+SVG
+cfg

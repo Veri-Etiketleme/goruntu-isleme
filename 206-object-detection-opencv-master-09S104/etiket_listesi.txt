@@ -1,0 +1,10 @@
+Python
+    cv2
+    argparse
+    numpy    
+    for
+        in
+    if
+Markdown
+Properties
+    

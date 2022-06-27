@@ -1,0 +1,1 @@
+Bu model, çok çeşitli görsel değişkenliği kapsayan geniş ve çeşitli bir veri kümesi üzerinde eğitilmiştir. Model, bireysel dilimler üzerinde segmentasyon gerçekleştirir, sağ-sol akciğeri ayrı ayrı çıkarır, hava ceplerini, tümörleri ve efüzyonları içerir. Trakea akciğer segmentasyonuna dahil edilmeyecektir. 

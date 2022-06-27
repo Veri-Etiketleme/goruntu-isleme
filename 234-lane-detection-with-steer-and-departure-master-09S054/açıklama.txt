@@ -1,0 +1,1 @@
+Öne bakan bir kamerayla şerit algılamayı gösteren bir proje.

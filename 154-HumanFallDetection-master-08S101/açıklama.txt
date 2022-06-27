@@ -1,0 +1,1 @@
+Çok kameralı ve çok kişili izleme desteği ve iki sınıfı tahmin etmek için uzun kısa süreli bellek (LSTM) sinir ağı ile insan pozu tahminini (openpifpaf kitaplığı) artırıyoruz: "Düşme" veya "Düşme Yok". Pozlardan, bir LSTM sınıflandırıcısı tarafından işlenen beş zamansal ve uzamsal özellik çıkarıyoruz.

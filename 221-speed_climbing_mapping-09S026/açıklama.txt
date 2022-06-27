@@ -1,0 +1,1 @@
+Makine öğrenimi, OpenCV ve matematik kullanarak hız tırmanıcılarının videolarını sanal bir duvara eşleme. Yüksek lisans tezimin uygulanması.

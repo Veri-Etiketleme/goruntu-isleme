@@ -1,0 +1,1 @@
+Bu proje, Python yardımıyla bir görüntüdeki ve video karelerindeki yol şeritlerini tespit etmek için bilgisayarla görü kitaplığı OpenCV'yi kullanır.

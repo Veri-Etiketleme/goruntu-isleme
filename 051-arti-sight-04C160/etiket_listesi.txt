@@ -1,0 +1,22 @@
+Python
+    pandas
+    pickle
+    os
+    keras
+        VGG19
+        callbacks
+        image
+        l1
+        l2
+        layers
+        models
+        nadam
+        preprocessing
+    matplotlib
+        legend
+        plot
+        pyplot
+        show
+        title
+        xlabel
+        ylabel

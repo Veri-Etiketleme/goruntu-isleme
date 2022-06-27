@@ -1,0 +1,30 @@
+Python
+    numpy
+    cPickle
+    scipy
+        io
+    random
+        randrange
+    scipy
+        cluster
+            vq
+                whiten
+    matplotlib
+        pyplot
+    os
+        path
+            join
+    sklearn
+        cluster
+            KMeans
+        metrics
+        feature_extraction
+            image
+        preprocessing
+    ipywidgets
+        loatProgress
+        FloatProgress
+    IPython
+        display
+            display
+Markdown

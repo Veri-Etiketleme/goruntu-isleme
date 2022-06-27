@@ -1,0 +1,1 @@
+PCA ve Doğrusal Regresyon ve Havuzlama ile Gülümseme Algılama (Pytorch)

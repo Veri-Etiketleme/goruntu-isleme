@@ -1,0 +1,1 @@
+OpenCV ve Python ile YOLO Nesne algılama.

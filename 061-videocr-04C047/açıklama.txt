@@ -1,0 +1,1 @@
+Python ile Tesseract OCR motorunu kullanarak sabit kodlanmış (yanmış) altyazıları videolardan çıkarın. Sabit kodlanmış altyazılı bir video girin:  

@@ -1,0 +1,4 @@
+https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/accuracy%20with%20custom%20data.png
+https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/data%20set%20image%20prediction.png
+https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/TestNumber.png
+https://github.com/Joy2469/Deep-Learning-MNIST---Handwritten-Digit-Recognition/blob/master/Images/prediction.png

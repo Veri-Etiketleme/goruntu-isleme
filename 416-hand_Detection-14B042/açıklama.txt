@@ -1,0 +1,1 @@
+Tensorflow'ta Sinir Ağları (SSD) kullanarak. Bu depo, Tensorflow (Object Detection API) kullanarak bir el dedektörünü eğitmek için kullanılan adımları ve komut dosyalarını belgeler. Herhangi bir DNN tabanlı görevde olduğu gibi, sürecin en pahalı (ve en riskli) kısmı, doğru (açıklamalı) veri kümesini bulmak veya oluşturmakla ilgilidir.

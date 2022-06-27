@@ -1,0 +1,64 @@
+Python
+    tensorflow
+        compat
+            v1 
+    os
+    cv2
+    numpy
+    time
+    argparse
+    object_detection
+        utils
+            visualization_utils
+                label_map_util
+    for
+        in
+    while
+    if
+    glob
+    pandas
+    io
+    xml
+        etree
+            ElementTree
+    argparse
+    PIL
+        Image
+    object_detection
+        utils
+            dataset_util
+            label_map_util    
+    collections
+        namedtuple
+    gc
+    sys
+    argparse
+    sklearn
+        base
+        cluster
+        preprocessing
+        linear_model
+    pycpd
+    scipy
+        spatial
+            distance
+        optimize
+        interpolate
+        signal
+    csaps
+    dataclasses
+        dataclass
+    object_detection
+        utils
+            label_map_util
+    else
+    sklearn
+        cluster
+        preprocessing
+    if
+JSON with Comments
+Docker
+Shell Script
+Ignore
+Properties
+Markdown    

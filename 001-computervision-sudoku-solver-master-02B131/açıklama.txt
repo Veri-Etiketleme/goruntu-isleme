@@ -1,0 +1,3 @@
+Bir görüntüden herhangi bir Sudoku bulmacasını çözmek için bilgisayarla görme ve makine öğrenimini kullanan bir Python programı. 
+Rakam tespiti, MNIST veri kümesinde eğitilmiş bir CNN ile yapılır -
+ kaydedilen model ve onu eğitecek komut dosyası bu havuzda bulunur.

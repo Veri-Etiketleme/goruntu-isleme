@@ -1,0 +1,1 @@
+SOTA modelleri kullanılarak Beyin Tümörü görüntülerinde Segmentasyon + Sınıflandırma.

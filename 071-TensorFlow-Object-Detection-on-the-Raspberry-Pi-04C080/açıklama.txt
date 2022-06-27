@@ -1,0 +1,1 @@
+Raspberry Pi'de TensorFlow'un Nesne Algılama API'sinin nasıl kurulacağını gösteren bir eğitim

@@ -1,0 +1,1 @@
+Bu Python projesi Yapay Sinir Ağı kullanarak El Yazısı Basamakları Tanır Gereksinimler: Python 3.5,sklearn,opencv,numpy,imutils

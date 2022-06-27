@@ -1,0 +1,1 @@
+https://github.com/spytensor/plants_disease_detection

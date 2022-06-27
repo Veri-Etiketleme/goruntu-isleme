@@ -1,0 +1,7 @@
+jupyter
+keras
+tensorflow
+imageio
+matplotlib
+numpy
+scipy

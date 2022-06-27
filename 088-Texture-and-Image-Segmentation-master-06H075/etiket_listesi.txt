@@ -1,0 +1,60 @@
+Python 
+    cv2
+        imread
+        imwrite
+        imshow
+        normalize
+        NORM_MINMAX
+        filter2D
+        cvtColor
+        COLOR_BGR2GRAY
+        applyColorMap
+        COLORMAP_JET
+    numpy
+        array
+        asarray
+        sqrt
+        pi
+        cos
+        sin
+        dot
+        exp 
+        ogrid
+        reshape
+        zeros
+        zeros_like
+        arange
+        meshgrid
+        uint8
+        float64
+        mean
+        unique
+    matplotlib
+        pyplot
+            figure
+            axis
+            imshow
+            savefig
+            show
+    sklearn
+        preprocessing
+            normalize
+        cluster
+            KMeans
+    time
+    scipy
+        ndimage
+            ndimg
+            
+Fonksiyonlar 
+
+    ord 
+    len 
+    range
+    print
+    str 
+    int
+
+Yardımcı Teknolojiler 
+
+    -

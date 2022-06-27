@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/*.exe": true,
+        "**/*.txt": true,
+        "**/*.dat": true,
+        "**/*.whl": true,
+        "**/*.pb": true,
+        "**/*.md": true,
+        "**/*.pbtxt": true,
+        "**/*.h5": true,
+
+        "**/*.png": true,
+        "**/*.jpg": true,
+        "**/*.jpeg": true,
+
+        "**/__pycache__":true,
+        ".gitignore": true,
+    }
+}

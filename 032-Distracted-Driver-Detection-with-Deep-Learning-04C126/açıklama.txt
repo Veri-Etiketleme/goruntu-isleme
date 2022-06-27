@@ -1,0 +1,1 @@
+Bu proje, derin öğrenme kullanarak ön panel kamerası tarafından yakalanan görüntülere dayanarak sürüşün tehlikeli durumunu tespit etmeyi amaçlıyor.

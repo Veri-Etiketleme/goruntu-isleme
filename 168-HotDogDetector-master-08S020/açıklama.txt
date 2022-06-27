@@ -1,0 +1,3 @@
+Küçük bir sosisli dedektörü. Apple'ın Core ML - VGG16'sını kullanarak algılar
+
+Fotoğrafını çekersin, sosisli olup olmadığını anlar :)

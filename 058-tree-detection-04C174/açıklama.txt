@@ -1,0 +1,1 @@
+LiDAR verilerinden, DOM ve DTM'den tek ağaçları tanımlamak için komut satırı uygulaması (CLI). Luzern kantonu için, Paris-Lodron Salzburg Üniversitesi'nde UNIGIS Master of Science (MSc) derecesi almak için yüksek lisans tezi olarak gerçekleştirildi.

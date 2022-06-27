@@ -1,0 +1,10 @@
+Python
+    cv2
+    numpy    
+    for
+        in
+    else
+    while
+Markdown  
+Properties
+  

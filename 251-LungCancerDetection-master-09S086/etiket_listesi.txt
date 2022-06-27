@@ -1,0 +1,66 @@
+Python
+    numpy
+    pandas
+    matplotlib
+        pyplot
+    seaborn    
+    tflearn
+        data_utils
+            build_hdf5_image_dataset
+        layers
+            core
+                input_data
+                dropout
+                fully_connected
+            estimator
+                regression
+            conv
+                conv_2d
+                max_pool_2d
+        data_preprocessing
+            ImagePreprocessing
+        data_augmentation
+            ImageAugmentation
+    h5py
+    PIL
+        Image
+        ImageEnhance
+    scipy
+        misc
+            imread
+            imresize
+        ndimage
+            rotate
+            imread
+            zoom
+    IPython
+        display
+            clear_output
+    sys
+    cnn_model
+        CNNModel
+    os
+    glob
+    SimpleITK
+    IPython
+        display
+            clear_output
+    multiprocessing
+    sklearn
+    joblib
+        Parallel
+        delayed
+    pickle
+    else
+    sklearn
+        cross_validation
+            train_test_split
+        metrics
+            roc_curve
+            auc
+            confusion_matrix
+    tensorflow 
+Ignore
+Markdown
+Makefile
+

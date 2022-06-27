@@ -1,0 +1,45 @@
+PYTHON 
+   
+     tensorflow
+         gfile
+            FastGFile
+            GFile
+            FastGFile
+            GraphDef
+            import_graph_def
+            Session
+
+        
+
+        sys
+          argv
+
+
+
+
+        os 
+          environ
+
+
+
+        thinker
+              filedialog
+
+
+
+        tkinter   
+             Tk    
+   
+
+     DÖNGÜLER
+       for
+       in 
+       with
+
+
+
+YAML 
+ 
+BASH 
+
+ 

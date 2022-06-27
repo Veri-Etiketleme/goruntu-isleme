@@ -1,0 +1,8 @@
+/annotations/*
+/images/*
+/models/*/*
+!/models/*/pipeline.config
+/pretrained_models/*/*
+!/pretrained_models/*/pipeline.config
+/test_data/*
+/out/*

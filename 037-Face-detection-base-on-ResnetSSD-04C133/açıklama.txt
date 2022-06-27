@@ -1,0 +1,1 @@
+Resnet ve SSD kullanarak Yüz algılama projesi, görüntü ve web kamerasında uygulanır.

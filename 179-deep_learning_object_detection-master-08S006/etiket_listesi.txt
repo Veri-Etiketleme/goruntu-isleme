@@ -1,0 +1,20 @@
+Python
+    os
+        path
+            exists
+            join
+        makedirs
+    re
+        compile
+        search
+    requests
+        get
+        exceptions
+            RequestException
+    codecs
+        open
+png
+Döngüler
+Syntax
+Koşullar
+

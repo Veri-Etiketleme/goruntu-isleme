@@ -1,0 +1,1 @@
+hsv filtreleme ve hough hattı dönüşümlerini kullanarak basit şerit algılama

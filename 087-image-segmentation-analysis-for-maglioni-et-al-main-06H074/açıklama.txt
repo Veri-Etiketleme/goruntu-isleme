@@ -1,0 +1,1 @@
+Bu proje görüntü segmentasyon analizi üzerinedir.

@@ -1,0 +1,1 @@
+Derin Evrişimli Sinir Ağlarını Kullanarak Çoklu Görünümlü Yüz Algılama

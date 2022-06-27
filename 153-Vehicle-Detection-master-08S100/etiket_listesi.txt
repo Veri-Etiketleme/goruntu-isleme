@@ -1,0 +1,126 @@
+Python
+    numpy(np)
+        zeros
+        float32
+        mgrid
+        absolute
+        uint8
+        zeros_like
+        max
+        sqrt
+        pi
+        array
+        arctan2
+        int32
+        sum
+        int
+        argmax
+        dstack
+        mean
+        concatenate
+        polyfit
+        min
+        flipud
+        transpose
+        vstack
+        hstack
+        int_
+        float64
+        uint8
+        histogram
+        ravel
+        random
+            randint
+        copy
+        float
+        clip
+    cv2
+       imread 
+       cvtColor
+       COLOR_BGR2GRAY
+       findChessboardCorners
+       drawChessboardCorners
+       imwrite
+       calibrateCamera
+       COLOR_RGB2HLS
+       Sobel
+       CV_64F
+       fillPoly
+       bitwise_and
+       getPerspectiveTransform
+       warpPerspective
+       INTER_LINEAR
+       undistort
+       rectangle
+       addWeighted
+       INTER_CUBIC
+       resize
+       merge
+       INTER_AREA
+       FONT_HERSHEY_SIMPLEX
+       putText
+       COLOR_RGB2YCrCb
+       COLOR_RGB2HSV
+       COLOR_RGB2LUV
+       COLOR_RGB2HLS
+       COLOR_RGB2YUV
+    glob   
+    matplotlib
+        pyplot(plt)
+            imshow
+            show
+            subplots
+            subplots_adjust
+        image(mpimg)
+            imread
+    pickle
+        dump
+        load
+    collections
+        deque
+    skimage
+        feature
+            hog
+    time
+    sklearn
+        svm
+            LinearSVC
+        preprocessing
+            StandardScaler
+        model_selection
+            train_test_split
+    scipy
+        ndimage
+            measurements
+                label
+    moviepy
+        editor
+            VideoFileClip
+    IPython
+        display
+            HTML
+
+Functions
+    return
+    as 
+    import
+    from
+    elif
+    else
+    if 
+    for 
+    in 
+    with 
+
+
+
+
+
+
+HTML
+
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook

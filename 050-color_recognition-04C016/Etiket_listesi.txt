@@ -1,0 +1,10 @@
+Python
+    numpy
+        uint8
+        shape
+        zeros
+        array
+    cv2
+        imread
+        cvtColor
+        inRange

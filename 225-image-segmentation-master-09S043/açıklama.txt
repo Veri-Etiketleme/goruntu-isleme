@@ -1,0 +1,1 @@
+Bu özetlerin sonraki hesaplamalarda kullanılabilmesi için görüntüleri bölümlere ayırmaya yarayan basit bir komut satırı aracı

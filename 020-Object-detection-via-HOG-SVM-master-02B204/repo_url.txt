@@ -1,0 +1,1 @@
+https://github.com/SamPlvs/Object-detection-via-HOG-SVM

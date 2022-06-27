@@ -1,0 +1,1 @@
+Python kullanarak dijital görüntü üzerinde kopyala-taşı sahtekarlığı algılama

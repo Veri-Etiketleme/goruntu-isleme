@@ -1,0 +1,22 @@
+Python 
+    fastai
+        vision
+        callbacks
+            hooks
+        utils
+            mem
+    os
+        getcwd
+
+Fonksiyonlar 
+
+    len 
+    str
+    print
+    enumerate
+    input
+    slice
+
+Yardımcı Teknolojiler 
+
+    Jupyter Notebook

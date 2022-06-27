@@ -1,0 +1,1 @@
+Lisans Bitirme Projem Mükemmel Lisans Projesi olarak ödüllendirildi. Şu anda ASL'de %99,68 test doğruluğu ile 10 statik ve 2 dinamik hareketi tanıyabilen, çoklu makine öğrenimi modelleriyle vizyon tabanlı bir işaret dili tanıma sistemi geliştiriyor.

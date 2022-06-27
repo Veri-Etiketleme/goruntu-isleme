@@ -1,0 +1,1 @@
+Bir görüntüdeki nesnelerin şeklini, rengini ve konumunu bulmak ve bunları farklı görüntüdeki aynı nesnelerle eşleştirmek için Python programı

@@ -1,0 +1,26 @@
+Python
+    cv2
+        rectangle
+        putText
+        waitKey
+        imshow
+        VideoCapture
+        dnn
+            blobFromImage
+            readNet
+
+    argparse
+        ArgumentParser
+    os
+        getcwd
+        walk
+        listdir
+        endswith
+    re
+        findall
+    json
+    string
+    numpy
+        array
+
+    LogisticRegression

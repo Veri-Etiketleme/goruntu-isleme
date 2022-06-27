@@ -1,0 +1,1 @@
+Bu benim Tezim. Bu projede, hem yüksek tespit doğruluğu hem de hesaplama verimliliğini hedefleyen bir Hayvan Tespit Sistemini uyguladık ve inceledik. Spesifik olarak, iki aşamalı bir algılama yöntemi öneriyoruz

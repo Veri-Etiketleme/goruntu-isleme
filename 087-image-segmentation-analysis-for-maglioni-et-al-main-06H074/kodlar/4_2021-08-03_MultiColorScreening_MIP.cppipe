@@ -1,0 +1,601 @@
+CellProfiler Pipeline: http://www.cellprofiler.org
+Version:5
+DateRevision:421
+GitHash:
+ModuleCount:34
+HasImagePlaneDetails:False
+
+Images:[module_num:1|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['To begin creating your project, use the Images module to compile a list of files and/or folders that you want to analyze. You can also specify a set of rules to include only the desired files in your selected folders.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    :
+    Filter images?:Images only
+    Select the rule criteria:and (extension does isimage) (directory doesnot containregexp "[\\\\/]\\.")
+
+Metadata:[module_num:2|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:['The Metadata module optionally allows you to extract information describing your images (i.e, metadata) which will be stored along with your measurements. This information can be contained in the file name and/or location, or in an external file.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Extract metadata?:Yes
+    Metadata data type:Text
+    Metadata types:{}
+    Extraction method count:2
+    Metadata extraction method:Extract from file/folder names
+    Metadata source:File name
+    Regular expression to extract from file name:^r(?P<WellRow>\d{2})c(?P<WellColumn>\d{2})f(?P<Site>\d{2})p(?P<Plane>\d{2})-ch(?P<ChannelNumber>\d)
+    Regular expression to extract from folder name:(?P<Date>[0-9]{4}_[0-9]{2}_[0-9]{2})$
+    Extract metadata from:All images
+    Select the filtering criteria:and (file does contain "")
+    Metadata file location:Elsewhere...|
+    Match file and image metadata:[]
+    Use case insensitive matching?:No
+    Metadata file name:None
+    Does cached metadata exist?:No
+    Metadata extraction method:Import from file
+    Metadata source:File name
+    Regular expression to extract from file name:^(?P<Plate>.*)_(?P<Well>[A-P][0-9]{2})_s(?P<Site>[0-9])_w(?P<ChannelNumber>[0-9])
+    Regular expression to extract from folder name:(?P<Date>[0-9]{4}_[0-9]{2}_[0-9]{2})$
+    Extract metadata from:All images
+    Select the filtering criteria:and (file does contain "")
+    Metadata file location:Elsewhere...|E:\\Operetta_AnnaHamacher\\Cellprofiler\\20210806_S2R+_Compounds_Proksch_Ventura_TMRE_v4\\plate1\\PlateLayout
+    Match file and image metadata:[{'CSV Metadata': '\ufeffWell_ID', 'Image Metadata': 'Well'}]
+    Use case insensitive matching?:No
+    Metadata file name:Plate1_PlateMap_Proksch_Compounds.csv
+    Does cached metadata exist?:No
+
+NamesAndTypes:[module_num:3|svn_version:'Unknown'|variable_revision_number:8|show_window:False|notes:['The NamesAndTypes module allows you to assign a meaningful name to each image by which other modules will refer to it.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Assign a name to:Images matching rules
+    Select the image type:Grayscale image
+    Name to assign these images:DNA
+    Match metadata:[]
+    Image set matching method:Order
+    Set intensity range from:Image metadata
+    Assignments count:5
+    Single images count:0
+    Maximum intensity:255.0
+    Process as 3D?:No
+    Relative pixel spacing in X:1.0
+    Relative pixel spacing in Y:1.0
+    Relative pixel spacing in Z:1.0
+    Select the rule criteria:and (metadata does ChannelNumber "1") (file doesnot contain "cp_masks")
+    Name to assign these images:DPC
+    Name to assign these objects:Cell
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+    Select the rule criteria:and (metadata does ChannelNumber "2")
+    Name to assign these images:Hoechst
+    Name to assign these objects:Nucleus
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+    Select the rule criteria:and (metadata does ChannelNumber "3")
+    Name to assign these images:BODIPY
+    Name to assign these objects:Cytoplasm
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+    Select the rule criteria:and (metadata does ChannelNumber "4")
+    Name to assign these images:Mito
+    Name to assign these objects:Speckle
+    Select the image type:Grayscale image
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+    Select the rule criteria:and (file does contain "cp_masks") (extension does ispng)
+    Name to assign these images:Cellmask
+    Name to assign these objects:Cells
+    Select the image type:Objects
+    Set intensity range from:Image metadata
+    Maximum intensity:255.0
+
+Groups:[module_num:4|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['The Groups module optionally allows you to split your list of images into image subsets (groups) which will be processed independently of each other. Examples of groupings include screening batches, microtiter plates, time-lapse movies, etc.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Do you want to group your images?:No
+    grouping metadata count:3
+    Metadata category:Well
+    Metadata category:Site
+    Metadata category:ChannelNumber
+
+IdentifyPrimaryObjects:[module_num:5|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Hoechst
+    Name the primary objects to be identified:Nuclei
+    Typical diameter of objects, in pixel units (Min,Max):15,90
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:Shape
+    Method to draw dividing lines between clumped objects:Shape
+    Size of smoothing filter:5
+    Suppress local maxima that are closer than this minimum allowed distance:20.0
+    Speed up by using lower-resolution image to find local maxima?:No
+    Fill holes in identified objects?:After declumping only
+    Automatically calculate size of smoothing filter for declumping?:No
+    Automatically calculate minimum allowed distance between local maxima?:No
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:1.3488
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.006,0.3
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Two classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:50
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Otsu
+
+RelateObjects:[module_num:6|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Parent objects:Cells
+    Child objects:Nuclei
+    Calculate child-parent distances?:Both
+    Calculate per-parent means for all child measurements?:Yes
+    Calculate distances to other parents?:No
+    Do you want to save the children with parents as a new object set?:No
+    Name the output object:RelateObjects
+    Parent name:None
+
+IdentifyTertiaryObjects:[module_num:7|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the larger identified objects:Cells
+    Select the smaller identified objects:Nuclei
+    Name the tertiary objects to be identified:Cytoplasm
+    Shrink smaller object prior to subtraction?:No
+
+IdentifyPrimaryObjects:[module_num:8|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:BODIPY
+    Name the primary objects to be identified:C12_drops
+    Typical diameter of objects, in pixel units (Min,Max):2,80
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:None
+    Method to draw dividing lines between clumped objects:Intensity
+    Size of smoothing filter:1
+    Suppress local maxima that are closer than this minimum allowed distance:5
+    Speed up by using lower-resolution image to find local maxima?:No
+    Fill holes in identified objects?:Never
+    Automatically calculate size of smoothing filter for declumping?:No
+    Automatically calculate minimum allowed distance between local maxima?:No
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:0
+    Threshold correction factor:1.2
+    Lower and upper bounds on threshold:0.022,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Three classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:10
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Otsu
+
+EnhanceOrSuppressFeatures:[module_num:9|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Select the input image:Mito
+    Name the output image:EnhanceMito
+    Select the operation:Enhance
+    Feature size:5
+    Feature type:Neurites
+    Range of hole sizes:1,10
+    Smoothing scale:2.0
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Slow
+    Rescale result image:Yes
+
+EnhanceOrSuppressFeatures:[module_num:10|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:True]
+    Select the input image:Mito
+    Name the output image:EnhanceMito
+    Select the operation:Enhance
+    Feature size:10
+    Feature type:Speckles
+    Range of hole sizes:1,10
+    Smoothing scale:1.5
+    Shear angle:0.0
+    Decay:0.95
+    Enhancement method:Tubeness
+    Speed and accuracy:Slow
+    Rescale result image:Yes
+
+IdentifyPrimaryObjects:[module_num:11|svn_version:'Unknown'|variable_revision_number:15|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:EnhanceMito
+    Name the primary objects to be identified:Mitos
+    Typical diameter of objects, in pixel units (Min,Max):3,100
+    Discard objects outside the diameter range?:Yes
+    Discard objects touching the border of the image?:Yes
+    Method to distinguish clumped objects:Shape
+    Method to draw dividing lines between clumped objects:None
+    Size of smoothing filter:8
+    Suppress local maxima that are closer than this minimum allowed distance:7.0
+    Speed up by using lower-resolution image to find local maxima?:No
+    Fill holes in identified objects?:Never
+    Automatically calculate size of smoothing filter for declumping?:Yes
+    Automatically calculate minimum allowed distance between local maxima?:Yes
+    Handling of objects if excessive number of objects identified:Continue
+    Maximum number of objects:500
+    Use advanced settings?:Yes
+    Threshold setting version:12
+    Threshold strategy:Global
+    Thresholding method:Minimum Cross-Entropy
+    Threshold smoothing scale:0
+    Threshold correction factor:1.0
+    Lower and upper bounds on threshold:0.001,1.0
+    Manual threshold:0.0
+    Select the measurement to threshold with:None
+    Two-class or three-class thresholding?:Three classes
+    Log transform before thresholding?:No
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+    Size of adaptive window:30
+    Lower outlier fraction:0.05
+    Upper outlier fraction:0.05
+    Averaging method:Mean
+    Variance method:Standard deviation
+    # of deviations:2.0
+    Thresholding method:Otsu
+
+MeasureObjectIntensity:[module_num:12|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:BODIPY
+    Select objects to measure:C12_drops, Cells
+
+MeasureObjectIntensity:[module_num:13|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:Hoechst
+    Select objects to measure:Cells, Nuclei
+
+MeasureObjectIntensity:[module_num:14|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:Mito
+    Select objects to measure:Cells, Mitos
+
+MeasureObjectIntensity:[module_num:15|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select images to measure:DPC
+    Select objects to measure:C12_drops, Cells, Cytoplasm, Mitos, Nuclei
+
+MeasureObjectSizeShape:[module_num:16|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select object sets to measure:C12_drops, Cells, Mitos, Nuclei
+    Calculate the Zernike features?:Yes
+    Calculate the advanced features?:No
+
+MeasureImageAreaOccupied:[module_num:17|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Measure the area occupied by:Objects
+    Select binary images to measure:
+    Select object sets to measure:C12_drops, Cells, Mitos, Nuclei
+
+MeasureImageQuality:[module_num:18|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Calculate metrics for which images?:All loaded images
+    Image count:1
+    Scale count:1
+    Threshold count:1
+    Select the images to measure:
+    Include the image rescaling value?:Yes
+    Calculate blur metrics?:Yes
+    Spatial scale for blur measurements:20
+    Calculate saturation metrics?:Yes
+    Calculate intensity metrics?:Yes
+    Calculate thresholds?:Yes
+    Use all thresholding methods?:No
+    Select a thresholding method:Otsu
+    Typical fraction of the image covered by objects:0.1
+    Two-class or three-class thresholding?:Two classes
+    Minimize the weighted variance or the entropy?:Weighted variance
+    Assign pixels in the middle intensity class to the foreground or the background?:Foreground
+
+RelateObjects:[module_num:19|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Parent objects:Cells
+    Child objects:C12_drops
+    Calculate child-parent distances?:Both
+    Calculate per-parent means for all child measurements?:No
+    Calculate distances to other parents?:No
+    Do you want to save the children with parents as a new object set?:No
+    Name the output object:RelateObjects
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+
+RelateObjects:[module_num:20|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Parent objects:Cells
+    Child objects:Mitos
+    Calculate child-parent distances?:None
+    Calculate per-parent means for all child measurements?:No
+    Calculate distances to other parents?:No
+    Do you want to save the children with parents as a new object set?:No
+    Name the output object:RelateObjects
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+    Parent name:None
+
+CalculateMath:[module_num:21|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Name the output measurement:NucleusArea_per_CellArea
+    Operation:Divide
+    Select the numerator measurement type:Object
+    Select the numerator objects:Nuclei
+    Select the numerator measurement:AreaShape_Area
+    Multiply the above operand by:1.0
+    Raise the power of above operand by:1.0
+    Select the denominator measurement type:Object
+    Select the denominator objects:Cells
+    Select the denominator measurement:AreaShape_Area
+    Multiply the above operand by:1.0
+    Raise the power of above operand by:1.0
+    Take log10 of result?:No
+    Multiply the result by:1.0
+    Raise the power of result by:1.0
+    Add to the result:0.0
+    How should the output value be rounded?:Not rounded
+    Enter how many decimal places the value should be rounded to:0
+    Constrain the result to a lower bound?:No
+    Enter the lower bound:0.8
+    Constrain the result to an upper bound?:No
+    Enter the upper bound:0.8
+
+RescaleIntensity:[module_num:22|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:BODIPY
+    Name the output image:BODIPYRescaled
+    Rescaling method:Stretch each image to use the full intensity range
+    Method to calculate the minimum intensity:Custom
+    Method to calculate the maximum intensity:Custom
+    Lower intensity limit for the input image:0.0
+    Upper intensity limit for the input image:1.0
+    Intensity range for the input image:0.0,1.0
+    Intensity range for the output image:0.0,1.0
+    Select image to match in maximum intensity:None
+    Divisor value:1.0
+    Divisor measurement:None
+
+RescaleIntensity:[module_num:23|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Hoechst
+    Name the output image:HoechstRescaled
+    Rescaling method:Stretch each image to use the full intensity range
+    Method to calculate the minimum intensity:Custom
+    Method to calculate the maximum intensity:Custom
+    Lower intensity limit for the input image:0.0
+    Upper intensity limit for the input image:1.0
+    Intensity range for the input image:0.0,1.0
+    Intensity range for the output image:0.0,1.0
+    Select image to match in maximum intensity:None
+    Divisor value:1.0
+    Divisor measurement:None
+
+RescaleIntensity:[module_num:24|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:DPC
+    Name the output image:DPCRescaled
+    Rescaling method:Stretch each image to use the full intensity range
+    Method to calculate the minimum intensity:Custom
+    Method to calculate the maximum intensity:Custom
+    Lower intensity limit for the input image:0.0
+    Upper intensity limit for the input image:1.0
+    Intensity range for the input image:0.0,1.0
+    Intensity range for the output image:0.0,1.0
+    Select image to match in maximum intensity:None
+    Divisor value:1.0
+    Divisor measurement:None
+
+RescaleIntensity:[module_num:25|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the input image:Mito
+    Name the output image:MitoRescaled
+    Rescaling method:Stretch each image to use the full intensity range
+    Method to calculate the minimum intensity:Custom
+    Method to calculate the maximum intensity:Custom
+    Lower intensity limit for the input image:0.0
+    Upper intensity limit for the input image:1.0
+    Intensity range for the input image:0.0,1.0
+    Intensity range for the output image:0.0,1.0
+    Select image to match in maximum intensity:None
+    Divisor value:1.0
+    Divisor measurement:None
+
+OverlayOutlines:[module_num:26|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Display outlines on a blank image?:No
+    Select image on which to display outlines:BODIPYRescaled
+    Name the output image:BODIPYOverlay
+    Outline display mode:Color
+    Select method to determine brightness of outlines:Max of image
+    How to outline:Thick
+    Select outline color:red
+    Select objects to display:Cells
+    Select outline color:#80FFFF
+    Select objects to display:C12_drops
+
+OverlayOutlines:[module_num:27|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Display outlines on a blank image?:No
+    Select image on which to display outlines:MitoRescaled
+    Name the output image:MitoOverlay
+    Outline display mode:Color
+    Select method to determine brightness of outlines:Max of image
+    How to outline:Inner
+    Select outline color:Red
+    Select objects to display:Cells
+    Select outline color:yellow
+    Select objects to display:Mitos
+
+OverlayOutlines:[module_num:28|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Display outlines on a blank image?:No
+    Select image on which to display outlines:HoechstRescaled
+    Name the output image:HoechstOverlay
+    Outline display mode:Color
+    Select method to determine brightness of outlines:Max of image
+    How to outline:Thick
+    Select outline color:Red
+    Select objects to display:Cells
+    Select outline color:green
+    Select objects to display:Nuclei
+
+OverlayOutlines:[module_num:29|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Display outlines on a blank image?:No
+    Select image on which to display outlines:DPCRescaled
+    Name the output image:DPCOverlay
+    Outline display mode:Color
+    Select method to determine brightness of outlines:Max of image
+    How to outline:Thick
+    Select outline color:Red
+    Select objects to display:Cells
+    Select outline color:Green
+    Select objects to display:Nuclei
+
+Tile:[module_num:30|svn_version:'Unknown'|variable_revision_number:1|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select an input image:HoechstOverlay
+    Name the output image:TiledImage
+    Tile assembly method:Within cycles
+    Final number of rows:1
+    Final number of columns:4
+    Image corner to begin tiling:top left
+    Direction to begin tiling:row
+    Use meander mode?:No
+    Automatically calculate number of rows?:No
+    Automatically calculate number of columns?:Yes
+    Select an additional image to tile:DPCOverlay
+    Select an additional image to tile:BODIPYOverlay
+    Select an additional image to tile:MitoOverlay
+
+SaveImages:[module_num:31|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:TiledImage
+    Select method for constructing file names:From image filename
+    Select image name for file prefix:Hoechst
+    Enter single file name:OrigBlue
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:_tile
+    Saved file format:png
+    Output file location:Elsewhere...|E:\\Operetta_AnnaHamacher\\Cellprofiler\\20210806_S2R+_Compounds_Proksch_Ventura_TMRE_v4\\plate1\\60min\\tiles2
+    Image bit depth:8-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+SaveImages:[module_num:32|svn_version:'Unknown'|variable_revision_number:16|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the type of image to save:Image
+    Select the image to save:BODIPYOverlay
+    Select method for constructing file names:From image filename
+    Select image name for file prefix:Hoechst
+    Enter single file name:OrigBlue
+    Number of digits:4
+    Append a suffix to the image file name?:Yes
+    Text to append to the image name:_BODIPY_Overlay
+    Saved file format:png
+    Output file location:Elsewhere...|E:\\Operetta_AnnaHamacher\\Cellprofiler\\20210806_S2R+_Compounds_Proksch_Ventura_TMRE_v4\\plate1\\60min\\tiles2
+    Image bit depth:8-bit integer
+    Overwrite existing files without warning?:No
+    When to save:Every cycle
+    Record the file and path information to the saved image?:No
+    Create subfolders in the output folder?:No
+    Base image folder:Elsewhere...|
+    How to save the series:T (Time)
+    Save with lossless compression?:No
+
+ExportToSpreadsheet:[module_num:33|svn_version:'Unknown'|variable_revision_number:13|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+    Select the column delimiter:Tab
+    Add image metadata columns to your object data file?:Yes
+    Add image file and folder names to your object data file?:No
+    Select the measurements to export:No
+    Calculate the per-image mean values for object measurements?:Yes
+    Calculate the per-image median values for object measurements?:No
+    Calculate the per-image standard deviation values for object measurements?:No
+    Output file location:Elsewhere...|E:\\Operetta_AnnaHamacher\\Cellprofiler\\20210806_S2R+_Compounds_Proksch_Ventura_TMRE_v4\\plate1\\60min\\run2
+    Create a GenePattern GCT file?:No
+    Select source of sample row name:Metadata
+    Select the image to use as the identifier:None
+    Select the metadata to use as the identifier:None
+    Export all measurement types?:Yes
+    Press button to select measurements:Mitos|Distance_Minimum_Cells,Mitos|Distance_Centroid_Cells,Mitos|Parent_Cells,Mitos|Number_Object_Number,Mitos|Location_Center_Y,Mitos|Location_Center_X,Mitos|Location_Center_Z,Mitos|AreaShape_Perimeter,Mitos|AreaShape_FormFactor,Mitos|AreaShape_Solidity,Mitos|AreaShape_Orientation,Mitos|AreaShape_Center_Y,Mitos|AreaShape_Center_X,Mitos|AreaShape_Center_Z,Mitos|AreaShape_MinFeretDiameter,Mitos|AreaShape_Area,Mitos|AreaShape_MaxFeretDiameter,Mitos|AreaShape_EulerNumber,Mitos|AreaShape_Zernike_1_1,Mitos|AreaShape_Zernike_0_0,Mitos|AreaShape_Zernike_3_1,Mitos|AreaShape_Zernike_3_3,Mitos|AreaShape_Zernike_2_0,Mitos|AreaShape_Zernike_2_2,Mitos|AreaShape_Zernike_5_1,Mitos|AreaShape_Zernike_5_3,Mitos|AreaShape_Zernike_5_5,Mitos|AreaShape_Zernike_4_0,Mitos|AreaShape_Zernike_4_2,Mitos|AreaShape_Zernike_4_4,Mitos|AreaShape_Zernike_7_1,Mitos|AreaShape_Zernike_7_3,Mitos|AreaShape_Zernike_7_5,Mitos|AreaShape_Zernike_7_7,Mitos|AreaShape_Zernike_6_2,Mitos|AreaShape_Zernike_6_0,Mitos|AreaShape_Zernike_6_4,Mitos|AreaShape_Zernike_6_6,Mitos|AreaShape_Zernike_9_1,Mitos|AreaShape_Zernike_9_3,Mitos|AreaShape_Zernike_9_5,Mitos|AreaShape_Zernike_9_7,Mitos|AreaShape_Zernike_9_9,Mitos|AreaShape_Zernike_8_0,Mitos|AreaShape_Zernike_8_2,Mitos|AreaShape_Zernike_8_4,Mitos|AreaShape_Zernike_8_6,Mitos|AreaShape_Zernike_8_8,Mitos|AreaShape_MedianRadius,Mitos|AreaShape_Compactness,Mitos|AreaShape_Extent,Mitos|AreaShape_Eccentricity,Mitos|AreaShape_MaximumRadius,Mitos|AreaShape_MinorAxisLength,Mitos|AreaShape_MajorAxisLength,Mitos|AreaShape_MeanRadius,Image|Count_Mitos,Image|Count_Cells,Image|Count_C12_drops,Image|Count_Nuclei,Image|Count_NBD_drops,Image|AreaOccupied_Perimeter_Mitos,Image|AreaOccupied_Perimeter_Cells,Image|AreaOccupied_Perimeter_C12_drops,Image|AreaOccupied_Perimeter_Nuclei,Image|AreaOccupied_Perimeter_NBD_drops,Image|AreaOccupied_AreaOccupied_Mitos,Image|AreaOccupied_AreaOccupied_Cells,Image|AreaOccupied_AreaOccupied_C12_drops,Image|AreaOccupied_AreaOccupied_Nuclei,Image|AreaOccupied_AreaOccupied_NBD_drops,Image|AreaOccupied_TotalArea_Mitos,Image|AreaOccupied_TotalArea_Cells,Image|AreaOccupied_TotalArea_C12_drops,Image|AreaOccupied_TotalArea_Nuclei,Image|AreaOccupied_TotalArea_NBD_drops,Image|Width_NBD,Image|Width_C12,Image|Width_Hoechst,Image|Width_Mito,Image|Threshold_FinalThreshold_Mitos,Image|Threshold_FinalThreshold_Cells,Image|Threshold_FinalThreshold_C12_drops,Image|Threshold_FinalThreshold_Nuclei,Image|Threshold_FinalThreshold_NBD_drops,Image|Threshold_OrigThreshold_Mitos,Image|Threshold_OrigThreshold_Cells,Image|Threshold_OrigThreshold_C12_drops,Image|Threshold_OrigThreshold_Nuclei,Image|Threshold_OrigThreshold_NBD_drops,Image|Threshold_SumOfEntropies_Mitos,Image|Threshold_SumOfEntropies_Cells,Image|Threshold_SumOfEntropies_C12_drops,Image|Threshold_SumOfEntropies_Nuclei,Image|Threshold_SumOfEntropies_NBD_drops,Image|Threshold_WeightedVariance_Mitos,Image|Threshold_WeightedVariance_Cells,Image|Threshold_WeightedVariance_C12_drops,Image|Threshold_WeightedVariance_Nuclei,Image|Threshold_WeightedVariance_NBD_drops,Image|ExecutionTime_12RelateObjects,Image|ExecutionTime_01Images,Image|ExecutionTime_04Groups,Image|ExecutionTime_07IdentifyPrimaryObjects,Image|ExecutionTime_17MeasureImageAreaOccupied,Image|ExecutionTime_02Metadata,Image|ExecutionTime_08IdentifyPrimaryObjects,Image|ExecutionTime_05IdentifyPrimaryObjects,Image|ExecutionTime_15MeasureObjectIntensity,Image|ExecutionTime_03NamesAndTypes,Image|ExecutionTime_09EnhanceOrSuppressFeatures,Image|ExecutionTime_16MeasureObjectSizeShape,Image|ExecutionTime_13RelateObjects,Image|ExecutionTime_06IdentifySecondaryObjects,Image|ExecutionTime_14MeasureObjectIntensity,Image|ExecutionTime_11RelateObjects,Image|ExecutionTime_10IdentifyPrimaryObjects,Image|Series_NBD,Image|Series_C12,Image|Series_Hoechst,Image|Series_Mito,Image|Frame_NBD,Image|Frame_C12,Image|Frame_Hoechst,Image|Frame_Mito,Image|MD5Digest_NBD,Image|MD5Digest_C12,Image|MD5Digest_Hoechst,Image|MD5Digest_Mito,Image|FileName_NBD,Image|FileName_C12,Image|FileName_Hoechst,Image|FileName_Mito,Image|Scaling_C12,Image|Scaling_Hoechst,Image|Scaling_Mito,Image|Scaling_NBD,Image|URL_C12,Image|URL_Hoechst,Image|URL_Mito,Image|URL_NBD,Image|PathName_C12,Image|PathName_Hoechst,Image|PathName_Mito,Image|PathName_NBD,Image|ModuleError_12RelateObjects,Image|ModuleError_01Images,Image|ModuleError_04Groups,Image|ModuleError_07IdentifyPrimaryObjects,Image|ModuleError_17MeasureImageAreaOccupied,Image|ModuleError_08IdentifyPrimaryObjects,Image|ModuleError_02Metadata,Image|ModuleError_15MeasureObjectIntensity,Image|ModuleError_03NamesAndTypes,Image|ModuleError_09EnhanceOrSuppressFeatures,Image|ModuleError_16MeasureObjectSizeShape,Image|ModuleError_13RelateObjects,Image|ModuleError_06IdentifySecondaryObjects,Image|ModuleError_14MeasureObjectIntensity,Image|ModuleError_11RelateObjects,Image|ModuleError_10IdentifyPrimaryObjects,Image|ModuleError_05IdentifyPrimaryObjects,Image|Group_Index,Image|Group_Number,Image|Height_C12,Image|Height_Mito,Image|Height_Hoechst,Image|Height_NBD,Image|Metadata_WellRow,Image|Metadata_Series,Image|Metadata_Frame,Image|Metadata_FileLocation,Image|Metadata_Well,Image|Metadata_Plane,Image|Metadata_Site,Image|Metadata_ChannelNumber,Image|Metadata_WellColumn,C12_drops|Distance_Minimum_Cells,C12_drops|Distance_Centroid_Cells,C12_drops|Parent_Cells,C12_drops|Number_Object_Number,C12_drops|Intensity_MassDisplacement_C12,C12_drops|Intensity_MassDisplacement_NBD,C12_drops|Intensity_MinIntensity_C12,C12_drops|Intensity_MinIntensity_NBD,C12_drops|Intensity_StdIntensity_C12,C12_drops|Intensity_StdIntensity_NBD,C12_drops|Intensity_IntegratedIntensityEdge_C12,C12_drops|Intensity_IntegratedIntensityEdge_NBD,C12_drops|Intensity_MinIntensityEdge_C12,C12_drops|Intensity_MinIntensityEdge_NBD,C12_drops|Intensity_IntegratedIntensity_C12,C12_drops|Intensity_IntegratedIntensity_NBD,C12_drops|Intensity_UpperQuartileIntensity_C12,C12_drops|Intensity_UpperQuartileIntensity_NBD,C12_drops|Intensity_MADIntensity_C12,C12_drops|Intensity_MADIntensity_NBD,C12_drops|Intensity_LowerQuartileIntensity_C12,C12_drops|Intensity_LowerQuartileIntensity_NBD,C12_drops|Intensity_MeanIntensityEdge_C12,C12_drops|Intensity_MeanIntensityEdge_NBD,C12_drops|Intensity_MaxIntensity_C12,C12_drops|Intensity_MaxIntensity_NBD,C12_drops|Intensity_MedianIntensity_C12,C12_drops|Intensity_MedianIntensity_NBD,C12_drops|Intensity_MeanIntensity_C12,C12_drops|Intensity_MeanIntensity_NBD,C12_drops|Intensity_StdIntensityEdge_C12,C12_drops|Intensity_StdIntensityEdge_NBD,C12_drops|Intensity_MaxIntensityEdge_C12,C12_drops|Intensity_MaxIntensityEdge_NBD,C12_drops|Location_MaxIntensity_Y_C12,C12_drops|Location_MaxIntensity_Y_NBD,C12_drops|Location_MaxIntensity_X_C12,C12_drops|Location_MaxIntensity_X_NBD,C12_drops|Location_MaxIntensity_Z_C12,C12_drops|Location_MaxIntensity_Z_NBD,C12_drops|Location_CenterMassIntensity_Y_C12,C12_drops|Location_CenterMassIntensity_Y_NBD,C12_drops|Location_CenterMassIntensity_X_C12,C12_drops|Location_CenterMassIntensity_X_NBD,C12_drops|Location_CenterMassIntensity_Z_C12,C12_drops|Location_CenterMassIntensity_Z_NBD,C12_drops|Location_Center_Y,C12_drops|Location_Center_X,C12_drops|Location_Center_Z,C12_drops|AreaShape_Perimeter,C12_drops|AreaShape_FormFactor,C12_drops|AreaShape_Solidity,C12_drops|AreaShape_Orientation,C12_drops|AreaShape_Center_Y,C12_drops|AreaShape_Center_X,C12_drops|AreaShape_Center_Z,C12_drops|AreaShape_MajorAxisLength,C12_drops|AreaShape_MinFeretDiameter,C12_drops|AreaShape_MaxFeretDiameter,C12_drops|AreaShape_EulerNumber,C12_drops|AreaShape_Zernike_1_1,C12_drops|AreaShape_Zernike_0_0,C12_drops|AreaShape_Zernike_3_1,C12_drops|AreaShape_Zernike_3_3,C12_drops|AreaShape_Zernike_2_0,C12_drops|AreaShape_Zernike_2_2,C12_drops|AreaShape_Zernike_5_1,C12_drops|AreaShape_Zernike_5_3,C12_drops|AreaShape_Zernike_5_5,C12_drops|AreaShape_Zernike_4_0,C12_drops|AreaShape_Zernike_4_2,C12_drops|AreaShape_Zernike_4_4,C12_drops|AreaShape_Zernike_7_1,C12_drops|AreaShape_Zernike_7_3,C12_drops|AreaShape_Zernike_7_5,C12_drops|AreaShape_Zernike_7_7,C12_drops|AreaShape_Zernike_6_2,C12_drops|AreaShape_Zernike_6_0,C12_drops|AreaShape_Zernike_6_4,C12_drops|AreaShape_Zernike_6_6,C12_drops|AreaShape_Zernike_9_1,C12_drops|AreaShape_Zernike_9_3,C12_drops|AreaShape_Zernike_9_5,C12_drops|AreaShape_Zernike_9_7,C12_drops|AreaShape_Zernike_9_9,C12_drops|AreaShape_Zernike_8_0,C12_drops|AreaShape_Zernike_8_2,C12_drops|AreaShape_Zernike_8_4,C12_drops|AreaShape_Zernike_8_6,C12_drops|AreaShape_Zernike_8_8,C12_drops|AreaShape_Eccentricity,C12_drops|AreaShape_Compactness,C12_drops|AreaShape_Extent,C12_drops|AreaShape_MedianRadius,C12_drops|AreaShape_MaximumRadius,C12_drops|AreaShape_MinorAxisLength,C12_drops|AreaShape_Area,C12_drops|AreaShape_MeanRadius,NBD_drops|Distance_Minimum_Cells,NBD_drops|Distance_Centroid_Cells,NBD_drops|Parent_Cells,NBD_drops|Number_Object_Number,NBD_drops|Intensity_StdIntensityEdge_C12,NBD_drops|Intensity_StdIntensityEdge_NBD,NBD_drops|Intensity_MinIntensity_C12,NBD_drops|Intensity_MinIntensity_NBD,NBD_drops|Intensity_IntegratedIntensityEdge_C12,NBD_drops|Intensity_IntegratedIntensityEdge_NBD,NBD_drops|Intensity_StdIntensity_C12,NBD_drops|Intensity_StdIntensity_NBD,NBD_drops|Intensity_MinIntensityEdge_C12,NBD_drops|Intensity_MinIntensityEdge_NBD,NBD_drops|Intensity_UpperQuartileIntensity_C12,NBD_drops|Intensity_UpperQuartileIntensity_NBD,NBD_drops|Intensity_MADIntensity_C12,NBD_drops|Intensity_MADIntensity_NBD,NBD_drops|Intensity_LowerQuartileIntensity_C12,NBD_drops|Intensity_LowerQuartileIntensity_NBD,NBD_drops|Intensity_MeanIntensityEdge_C12,NBD_drops|Intensity_MeanIntensityEdge_NBD,NBD_drops|Intensity_MaxIntensity_C12,NBD_drops|Intensity_MaxIntensity_NBD,NBD_drops|Intensity_MedianIntensity_C12,NBD_drops|Intensity_MedianIntensity_NBD,NBD_drops|Intensity_MeanIntensity_C12,NBD_drops|Intensity_MeanIntensity_NBD,NBD_drops|Intensity_MassDisplacement_C12,NBD_drops|Intensity_MassDisplacement_NBD,NBD_drops|Intensity_IntegratedIntensity_C12,NBD_drops|Intensity_IntegratedIntensity_NBD,NBD_drops|Intensity_MaxIntensityEdge_C12,NBD_drops|Intensity_MaxIntensityEdge_NBD,NBD_drops|Location_MaxIntensity_Y_C12,NBD_drops|Location_MaxIntensity_Y_NBD,NBD_drops|Location_MaxIntensity_X_C12,NBD_drops|Location_MaxIntensity_X_NBD,NBD_drops|Location_MaxIntensity_Z_C12,NBD_drops|Location_MaxIntensity_Z_NBD,NBD_drops|Location_Center_Y,NBD_drops|Location_Center_X,NBD_drops|Location_Center_Z,NBD_drops|Location_CenterMassIntensity_Y_C12,NBD_drops|Location_CenterMassIntensity_Y_NBD,NBD_drops|Location_CenterMassIntensity_X_C12,NBD_drops|Location_CenterMassIntensity_X_NBD,NBD_drops|Location_CenterMassIntensity_Z_C12,NBD_drops|Location_CenterMassIntensity_Z_NBD,NBD_drops|AreaShape_Perimeter,NBD_drops|AreaShape_FormFactor,NBD_drops|AreaShape_Solidity,NBD_drops|AreaShape_Orientation,NBD_drops|AreaShape_Center_Y,NBD_drops|AreaShape_Center_X,NBD_drops|AreaShape_Center_Z,NBD_drops|AreaShape_MinFeretDiameter,NBD_drops|AreaShape_Area,NBD_drops|AreaShape_MaxFeretDiameter,NBD_drops|AreaShape_EulerNumber,NBD_drops|AreaShape_Zernike_1_1,NBD_drops|AreaShape_Zernike_0_0,NBD_drops|AreaShape_Zernike_3_1,NBD_drops|AreaShape_Zernike_3_3,NBD_drops|AreaShape_Zernike_2_0,NBD_drops|AreaShape_Zernike_2_2,NBD_drops|AreaShape_Zernike_5_1,NBD_drops|AreaShape_Zernike_5_3,NBD_drops|AreaShape_Zernike_5_5,NBD_drops|AreaShape_Zernike_4_0,NBD_drops|AreaShape_Zernike_4_2,NBD_drops|AreaShape_Zernike_4_4,NBD_drops|AreaShape_Zernike_7_1,NBD_drops|AreaShape_Zernike_7_3,NBD_drops|AreaShape_Zernike_7_5,NBD_drops|AreaShape_Zernike_7_7,NBD_drops|AreaShape_Zernike_6_2,NBD_drops|AreaShape_Zernike_6_0,NBD_drops|AreaShape_Zernike_6_6,NBD_drops|AreaShape_Zernike_6_4,NBD_drops|AreaShape_Zernike_9_1,NBD_drops|AreaShape_Zernike_9_3,NBD_drops|AreaShape_Zernike_9_5,NBD_drops|AreaShape_Zernike_9_7,NBD_drops|AreaShape_Zernike_9_9,NBD_drops|AreaShape_Zernike_8_0,NBD_drops|AreaShape_Zernike_8_2,NBD_drops|AreaShape_Zernike_8_4,NBD_drops|AreaShape_Zernike_8_6,NBD_drops|AreaShape_Zernike_8_8,NBD_drops|AreaShape_MedianRadius,NBD_drops|AreaShape_Compactness,NBD_drops|AreaShape_Extent,NBD_drops|AreaShape_Eccentricity,NBD_drops|AreaShape_MaximumRadius,NBD_drops|AreaShape_MinorAxisLength,NBD_drops|AreaShape_MajorAxisLength,NBD_drops|AreaShape_MeanRadius,Experiment|Modification_Timestamp,Experiment|Pipeline_Pipeline,Experiment|CellProfiler_Version,Experiment|Run_Timestamp,Nuclei|Location_Center_Y,Nuclei|Location_Center_X,Nuclei|Location_Center_Z,Nuclei|Number_Object_Number,Nuclei|Children_Cells_Count,Nuclei|AreaShape_Perimeter,Nuclei|AreaShape_FormFactor,Nuclei|AreaShape_MinorAxisLength,Nuclei|AreaShape_Center_Y,Nuclei|AreaShape_Center_X,Nuclei|AreaShape_Center_Z,Nuclei|AreaShape_MinFeretDiameter,Nuclei|AreaShape_Area,Nuclei|AreaShape_MaxFeretDiameter,Nuclei|AreaShape_Solidity,Nuclei|AreaShape_EulerNumber,Nuclei|AreaShape_MedianRadius,Nuclei|AreaShape_Compactness,Nuclei|AreaShape_Extent,Nuclei|AreaShape_Orientation,Nuclei|AreaShape_Eccentricity,Nuclei|AreaShape_MaximumRadius,Nuclei|AreaShape_Zernike_1_1,Nuclei|AreaShape_Zernike_0_0,Nuclei|AreaShape_Zernike_3_1,Nuclei|AreaShape_Zernike_3_3,Nuclei|AreaShape_Zernike_2_0,Nuclei|AreaShape_Zernike_2_2,Nuclei|AreaShape_Zernike_5_1,Nuclei|AreaShape_Zernike_5_3,Nuclei|AreaShape_Zernike_5_5,Nuclei|AreaShape_Zernike_4_0,Nuclei|AreaShape_Zernike_4_2,Nuclei|AreaShape_Zernike_4_4,Nuclei|AreaShape_Zernike_7_1,Nuclei|AreaShape_Zernike_7_3,Nuclei|AreaShape_Zernike_7_5,Nuclei|AreaShape_Zernike_7_7,Nuclei|AreaShape_Zernike_6_0,Nuclei|AreaShape_Zernike_6_6,Nuclei|AreaShape_Zernike_6_2,Nuclei|AreaShape_Zernike_6_4,Nuclei|AreaShape_Zernike_9_1,Nuclei|AreaShape_Zernike_9_3,Nuclei|AreaShape_Zernike_9_5,Nuclei|AreaShape_Zernike_9_7,Nuclei|AreaShape_Zernike_9_9,Nuclei|AreaShape_Zernike_8_0,Nuclei|AreaShape_Zernike_8_2,Nuclei|AreaShape_Zernike_8_4,Nuclei|AreaShape_Zernike_8_6,Nuclei|AreaShape_Zernike_8_8,Nuclei|AreaShape_MajorAxisLength,Nuclei|AreaShape_MeanRadius,Cells|Parent_Nuclei,Cells|Number_Object_Number,Cells|Location_Center_Y,Cells|Location_Center_X,Cells|Location_Center_Z,Cells|AreaShape_Perimeter,Cells|AreaShape_FormFactor,Cells|AreaShape_MeanRadius,Cells|AreaShape_Orientation,Cells|AreaShape_MinFeretDiameter,Cells|AreaShape_EulerNumber,Cells|AreaShape_MaxFeretDiameter,Cells|AreaShape_Solidity,Cells|AreaShape_Zernike_1_1,Cells|AreaShape_Zernike_0_0,Cells|AreaShape_Zernike_3_1,Cells|AreaShape_Zernike_3_3,Cells|AreaShape_Zernike_2_0,Cells|AreaShape_Zernike_2_2,Cells|AreaShape_Zernike_5_1,Cells|AreaShape_Zernike_5_3,Cells|AreaShape_Zernike_5_5,Cells|AreaShape_Zernike_4_0,Cells|AreaShape_Zernike_4_2,Cells|AreaShape_Zernike_4_4,Cells|AreaShape_Zernike_7_1,Cells|AreaShape_Zernike_7_3,Cells|AreaShape_Zernike_7_5,Cells|AreaShape_Zernike_7_7,Cells|AreaShape_Zernike_6_2,Cells|AreaShape_Zernike_6_0,Cells|AreaShape_Zernike_6_6,Cells|AreaShape_Zernike_6_4,Cells|AreaShape_Zernike_9_1,Cells|AreaShape_Zernike_9_3,Cells|AreaShape_Zernike_9_5,Cells|AreaShape_Zernike_9_7,Cells|AreaShape_Zernike_9_9,Cells|AreaShape_Zernike_8_0,Cells|AreaShape_Zernike_8_2,Cells|AreaShape_Zernike_8_4,Cells|AreaShape_Zernike_8_6,Cells|AreaShape_Zernike_8_8,Cells|AreaShape_Eccentricity,Cells|AreaShape_Compactness,Cells|AreaShape_Extent,Cells|AreaShape_MedianRadius,Cells|AreaShape_MaximumRadius,Cells|AreaShape_MinorAxisLength,Cells|AreaShape_Area,Cells|AreaShape_MajorAxisLength,Cells|AreaShape_Center_Y,Cells|AreaShape_Center_X,Cells|AreaShape_Center_Z,Cells|Children_NBD_drops_Count,Cells|Children_C12_drops_Count,Cells|Children_Mitos_Count
+    Representation of Nan/Inf:NaN
+    Add a prefix to file names?:Yes
+    Filename prefix:Live_
+    Overwrite existing files without warning?:No
+    Data to export:Do not use
+    Combine these object measurements with those of the previous object?:No
+    File name:DATA.csv
+    Use the object name for the file name?:Yes
+
+ExportToDatabase:[module_num:34|svn_version:'Unknown'|variable_revision_number:28|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
+    Database type:SQLite
+    Database name:DefaultDB
+    Add a prefix to table names?:Yes
+    Table prefix:Live_
+    Output file location:Elsewhere...|E:\\Operetta_AnnaHamacher\\Cellprofiler\\20210806_S2R+_Compounds_Proksch_Ventura_TMRE_v4\\plate1\\60min\\run1
+    Create a CellProfiler Analyst properties file?:Yes
+    Database host:
+    Username:
+    Password:
+    Name the SQLite database file:EXP009-1DB.db
+    Calculate the per-image mean values of object measurements?:Yes
+    Calculate the per-image median values of object measurements?:No
+    Calculate the per-image standard deviation values of object measurements?:No
+    Calculate the per-well mean values of object measurements?:No
+    Calculate the per-well median values of object measurements?:No
+    Calculate the per-well standard deviation values of object measurements?:No
+    Export measurements for all objects to the database?:All
+    Select the objects:
+    Maximum # of characters in a column name:64
+    Create one table per object, a single object table or a single object view?:Single object view
+    Enter an image url prepend if you plan to access your files via http:
+    Write image thumbnails directly to the database?:No
+    Select the images for which you want to save thumbnails:
+    Auto-scale thumbnail pixel intensities?:Yes
+    Select the plate type:96
+    Select the plate metadata:None
+    Select the well metadata:Well
+    Include information for all images, using default values?:Yes
+    Properties image group count:1
+    Properties group field count:1
+    Properties filter field count:0
+    Workspace measurement count:1
+    Experiment name:MyEXP009_plate1
+    Which objects should be used for locations?:Cells
+    Enter a phenotype class table name if using the Classifier tool in CellProfiler Analyst:LD
+    Export object relationships?:Yes
+    Overwrite without warning?:Never
+    Access CellProfiler Analyst images via URL?:No
+    Select the classification type:Object
+    Select an image to include:None
+    Use the image name for the display?:Yes
+    Image name:Channel1
+    Channel color:red
+    Do you want to add group fields?:No
+    Enter the name of the group:
+    Enter the per-image columns which define the group, separated by commas:ImageNumber, Image_Metadata_Plate, Image_Metadata_Well
+    Do you want to add filter fields?:Yes
+    Automatically create a filter for each plate?:No
+    Create a CellProfiler Analyst workspace file?:No
+    Select the measurement display tool:ScatterPlot
+    Type of measurement to plot on the X-axis:Image
+    Enter the object name:None
+    Select the X-axis measurement:None
+    Select the X-axis index:ImageNumber
+    Type of measurement to plot on the Y-axis:Image
+    Enter the object name:None
+    Select the Y-axis measurement:None
+    Select the Y-axis index:ImageNumber

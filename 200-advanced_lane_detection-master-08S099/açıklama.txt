@@ -1,0 +1,12 @@
+Bilgisayarla görme tekniklerini kullanarak şeritleri tespit edin. Bu proje, Udacity Kendi Kendini Süren Araba Nano Derecesinin bir parçasıdır ve kodun çoğu ders notlarından yararlanılmıştır.
+
+Şerit tespiti için aşağıdaki adımlar gerçekleştirilmiştir:
+
+Bir dizi satranç tahtası görüntüsü verilen kamera kalibrasyon matrisini ve bozulma katsayılarını hesaplayın.
+Ham görüntülere bir bozulma düzeltmesi uygulayın.
+Eşikli bir ikili görüntü oluşturmak için renk dönüşümlerini, gradyanları vb. kullanın.
+İkili görüntüyü düzeltmek için bir perspektif dönüşümü uygulayın ("kuş bakışı görünümü").
+Şerit piksellerini tespit edin ve şerit sınırını bulmak için sığdırın.
+Merkeze göre şeridin eğriliğini ve araç konumunu belirleyin.
+Algılanan şerit sınırlarını orijinal görüntüye geri döndürün.
+Şerit sınırlarının çıktı görsel gösterimi ve şerit eğriliği ve araç pozisyonunun sayısal tahmini.

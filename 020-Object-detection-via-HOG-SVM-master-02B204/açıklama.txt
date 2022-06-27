@@ -1,0 +1,2 @@
+Bu, özellikler olarak Yönlendirilmiş Gradyanların Histogramını (HOG) 
+ve sınıflandırıcı olarak Destek Vektör Makinelerini (SVM) kullanan bir Nesne algılama uygulamasıdır

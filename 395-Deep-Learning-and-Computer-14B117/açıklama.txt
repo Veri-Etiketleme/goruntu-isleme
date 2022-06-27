@@ -1,0 +1,1 @@
+Yüz tanıma, SSD ve GAN ile nesne algılama için küçük projeler Kaynaklar

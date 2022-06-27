@@ -1,0 +1,15 @@
+Python
+    cv2
+        Canny
+        approxPolyDP
+        arcLength
+        bilateralFilter
+        boundingRect
+        cvtColor
+        findContours
+        imread
+        putText
+        rectangle
+        threshold
+    pytesseract
+        image_to_string

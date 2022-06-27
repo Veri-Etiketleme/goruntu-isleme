@@ -1,0 +1,11 @@
+Python
+    cv2
+    numpy
+    copy
+    math  
+    if
+    for
+        in
+    while
+Markdown
+Ignore         

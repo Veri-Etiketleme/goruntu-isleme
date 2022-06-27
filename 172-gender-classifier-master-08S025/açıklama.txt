@@ -1,0 +1,1 @@
+Bir görüntünün erkek mi yoksa kadın mı olduğunu sınıflandırmak için TensorFlow ve Google'ın önceden eğitilmiş InceptionV3 modelini kullanma.

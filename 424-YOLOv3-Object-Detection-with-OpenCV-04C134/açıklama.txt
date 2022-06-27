@@ -1,0 +1,1 @@
+Bu proje, önceden eğitilmiş yolov3 modellerini kullanarak bir görüntü ve video nesne algılama sınıflandırıcısı uygular. Yolov3 modelleri, 2018'de yayınlanan resmi yolov3 belgesinden alınmıştır. Yolov3 uygulaması darknet'tendir. Ayrıca bu proje, web kamerasını kullanarak gerçek zamanlı sınıflandırma gerçekleştirmek için bir seçenek uygular.

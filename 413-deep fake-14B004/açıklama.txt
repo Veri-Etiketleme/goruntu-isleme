@@ -1,0 +1,1 @@
+Faceswap, resimlerdeki ve videolardaki yüzleri tanımak ve değiştirmek için derin öğrenmeyi kullanan bir araçtır.

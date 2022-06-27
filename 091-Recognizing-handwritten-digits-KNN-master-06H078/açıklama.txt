@@ -1,0 +1,1 @@
+Bu projede MNIST alt kümesinden el yazısı rakamları tanımak için görüntü veri kümesine k-NN sınıflandırıcı uygulanacaktır.

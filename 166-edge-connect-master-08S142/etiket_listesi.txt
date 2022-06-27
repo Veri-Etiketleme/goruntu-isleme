@@ -1,0 +1,67 @@
+Python
+    os
+        path
+            join
+            exists
+        environ
+    pathlib
+        Path
+    argparse    
+        ArgumentParser
+        ArgumentDefaultsHelpFormatter
+    torch
+        autograd
+            Variable
+        nn
+            functional
+            adaptive_avg_pool2d
+    inception
+        InceptionV3
+    scipy
+        misc
+            imread
+        linalg
+    numpy(np)
+        empty
+        atleast_1d
+        atleast_2d
+        isfinite
+        eye
+        iscomplexobj
+        allclose
+        diagonal
+        max
+        abs
+        trace
+        cov
+        mean
+        float32
+        savez
+    skimage
+        measure
+        color
+Functions
+    for 
+    in 
+    if 
+    return
+    assert
+    raise
+    else 
+    elif
+    while
+    
+
+
+
+
+
+
+
+
+
+Shell
+
+
+
+

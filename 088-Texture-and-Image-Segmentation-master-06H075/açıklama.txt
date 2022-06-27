@@ -1,0 +1,1 @@
+Bu proje, bir görüntüdeki farklı dokuları bölümlere ayırmak ve bir görüntüyü yoğunluğuna göre bölümlere ayırmak için kullanılır.

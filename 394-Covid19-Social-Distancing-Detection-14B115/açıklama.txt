@@ -1,0 +1,1 @@
+Social distancing detection, a deep learning computer vision project with yolo object detection using python, OpenCV and YOLOv3 model.

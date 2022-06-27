@@ -1,0 +1,3 @@
+7 duygu kullanacağız - 7 duygumuz var - 'Kızgın'😠, 'İğrenç'🤢, 'Korku'😱, 'Mutlu'😇, 'Nötr'😐, 'Üzgün'☹️, 'Sürpriz'😲 eğitmek için ve Convolution Neural Networks kullanarak algoritmamızı test edin (doğrulama). Kaggle çekirdek not defterini doğrudan kullanabilirsiniz, böylece veri setini indirmenize gerek kalmaz. Ayrıca, kodunuzu indirebilir ve doğrudan yerel cihazınızda çalıştırabilirsiniz.
+
+Kullanılan Araçlar ve Kitaplıklar - Anaconda Jupyter notebook VSCode matplotlib numpy openCV keras yükleyin

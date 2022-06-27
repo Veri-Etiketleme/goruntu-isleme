@@ -1,0 +1,1 @@
+Araba Görüntüsü dosyasını okumak ve Numara plakasını String olarak döndürmek için Python Programı

@@ -1,0 +1,1 @@
+PyPower Projesi - Yapay Zeka kullanarak Duygu Algılama

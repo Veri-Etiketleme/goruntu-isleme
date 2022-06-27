@@ -1,0 +1,1 @@
+Bu, Sinir Ağları kursu için son ödevim. Bu projenin amacı, verileri çoğunlukla numpy ile hazırlamak ve görüntüleri sınıflandırmak için Tensorflow/Keras ile bir Sinir Ağı oluşturmak ve ardından segmentasyon için ilk sinir ağının çoğunu kullanmaktı.

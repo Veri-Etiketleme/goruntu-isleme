@@ -1,0 +1,88 @@
+Python
+    torch
+        nn
+            functional(F)
+        optim
+            SGD
+            lr_scheduler
+                StepLR
+        autograd
+            Variable
+        cuda
+            is_available
+        device
+        utils
+            data
+                DataLoader
+        set_grad_enabled
+        max
+        sum
+        exp
+            data
+                numpy
+        FloatTensor
+            mean
+        load     
+    numpy(np)
+        array
+        transpose
+        clip
+        argsort
+        arange
+    matplotlib
+        pyplot(plt)
+            subplots
+    time
+        time
+    PIL
+        PILLOW_VERSION
+        Image
+            thumbnail
+            ANTIALIAS
+            crop
+            numpy
+                transpose
+            open
+    torchvision
+        datasets
+            ImageFolder
+        transform
+            Compose
+            RandomRotation
+            RandomResizedCrop
+            RandomHorizontalFlip
+            ToTensor
+            Normalize
+            Resize
+            CenterCrop
+        models
+            resnet152
+    collections
+        OrderedDict
+    copy
+        deepcopy
+    json
+        load
+    os
+        path
+            join
+            exists
+    Koşullar
+        if
+        else
+        return
+        for
+        in
+        print
+        with
+Yardımcı Teknolojiler
+    Jupyter Notebook
+json
+png
+
+
+
+
+
+
+

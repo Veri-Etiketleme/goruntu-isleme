@@ -1,0 +1,34 @@
+   PYHTON 
+     
+       OS 
+         listdir
+         mkdir
+         rmtree
+         path
+           isdir 
+           join
+
+
+       
+       
+       random
+          sample
+
+        
+      
+      shutil
+          copy2 
+          rmtree
+
+
+    xml
+      etree
+            ElementTree
+                parse 
+    
+
+    cv2
+        imwrite
+        resize
+        imread
+        

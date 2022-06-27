@@ -1,0 +1,84 @@
+PYTHON 
+    
+    cv2
+      imread
+      resize
+      drawContours
+      findContours
+      RETR_EXTERNAL
+      CHAIN_APPROX_SIMPLE
+      getPerspectiveTransform
+      warpPerspective
+      COLOR_BGR2GRAY
+      imwrite
+      GaussianBlur
+
+
+   numpy
+      argmax
+      array
+
+
+
+
+    os
+      environ
+      remove
+
+
+
+    utils 
+         *    
+        cropp
+        remove_int
+
+
+
+
+
+    tensorflow
+           keras
+              models  
+                  load_model   
+          python
+              keras  
+                  layers 
+                      Conv2D
+                      MaxPooling2D
+                      Flatten
+                      Dense
+                  Sequential    
+
+    matplotlib
+          pyplot
+              imshow
+              cm 
+                binary
+             show
+
+
+
+    glob    
+       glob          
+
+
+
+   PIL 
+     Image
+
+
+
+  skimage
+      segmentation 
+             clear_border
+
+
+
+
+           KOŞULLAR
+
+             for
+             in 
+
+           DÖNGÜLER
+             return

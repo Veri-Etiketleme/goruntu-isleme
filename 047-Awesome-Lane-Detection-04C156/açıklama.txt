@@ -1,0 +1,1 @@
+Bu depo, GitChat'te yayınlanan "Öğretici: Bir şerit dedektörü oluşturun" (bilgisayar görme projeleri ile uygulamalı | pratik projeler, açık kaynak) makalesi içindir.

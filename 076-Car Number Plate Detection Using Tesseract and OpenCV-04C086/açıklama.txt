@@ -1,0 +1,1 @@
+Güvenlik ve düzenleme nedenleriyle kontrol noktalarını otomatikleştirme ihtiyacının artmasıyla birlikte, araba plaka tanıma kullanımı bu günlerde daha popüler hale geliyor. Bu projede araba plakalarını tespit etmek için Tesseract ve OpenCV kullanıyoruz ve ardından sonuçları daha sonra analitik ve istatistiksel amaçlarla kullanmak üzere bir CSV dosyasında saklıyoruz.

@@ -1,0 +1,4 @@
+https://github.com/siddhantsomani/DeepLearning/blob/master/attachments/Sample2.jpg
+https://github.com/siddhantsomani/DeepLearning/blob/master/attachments/Sample2.png
+https://github.com/siddhantsomani/DeepLearning/blob/master/attachments/Sample1.jpeg
+https://github.com/siddhantsomani/DeepLearning/blob/master/attachments/Sample1_inference.jpeg

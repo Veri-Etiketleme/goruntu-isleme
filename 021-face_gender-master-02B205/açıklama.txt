@@ -1,0 +1,1 @@
+Özellik çıkarıcı olarak dlib yüz tanıma modelini kullanan basit bir cinsiyet sınıflandırıcı demosu

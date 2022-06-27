@@ -1,0 +1,123 @@
+Python
+    tensorflow(tf)
+        keras
+            models
+                load_model
+            preprocessing
+                image
+                    load_img
+                    img_to_array
+            applications
+                mobilenet_v2
+                    preprocess_input
+            callbacks
+                LearningRateScheduler
+        data
+            Dataset
+                from_tensor_slices
+        lite
+            TFLiteConverter
+                from_keras_model
+            Optimize
+                OPTIMIZE_FOR_SIZE
+            OpsSet
+                TFLITE_BUILTINS_INT8
+            Interpreter
+        uint8
+
+        python
+            framework
+                graph_util
+                    convert_variables_to_constants
+        lite
+            TFLiteConverter
+                from_keras_model
+            Optimize
+                DEFAULT
+            OpsSet
+                TFLITE_BUILTINS_INT8
+            uint8
+        cast
+        float32
+        data
+            Dataset
+                from_tensor_slices
+                    batch
+        os
+            path
+                sep
+                join
+                exists
+            makedirs
+        imutils
+            paths
+                list_images
+    numpy(np)
+            array
+            random
+                choice
+                shuffle
+            arange
+            expand_dims
+            argmax
+    argparse
+            ArgumentParser
+    pathlib
+            Path
+    tqdm 
+    matplotlib
+        pyplot(plt)
+            figure
+            imread
+            subplot
+            xticks
+            yticks
+            grid
+            imshow
+            xlabel
+            show
+            plot
+            title
+    shutil
+        copy2
+    time
+    cv2
+        resize
+        imread
+        putText
+        FONT_HERSHEY_SIMPLEX
+        imshow
+        waitKey
+    google
+        colab
+            drive
+                mount
+            files
+                download
+    tflite_runtime
+        interpreter
+            tflite
+
+
+Functions
+    import
+    as
+    from
+    with
+    return
+    in
+    yield
+    for 
+    in 
+    elif
+    else
+
+
+
+
+Yardımcı Teknolojiler
+    JupyterNotebook
+    Goggle
+
+JSON
+shell

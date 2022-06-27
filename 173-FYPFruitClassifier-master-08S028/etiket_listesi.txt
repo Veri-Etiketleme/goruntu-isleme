@@ -1,0 +1,89 @@
+Python
+    sklearn
+        pipeline
+            Pipeline
+        preprocessing
+            StandardScaler
+        ensemble
+            AdaBoostClassifier
+        cross_validation
+    SimpleCV
+        Image
+        HueHistogramFeatureExtractor
+        HaarLikeFeatureExtractor
+        EdgeHistogramFeatureExtractor
+    numpy(np)
+        concatenate
+        asarray
+        asanyarray
+        amax
+    glob
+    pickle
+        dump
+        load
+    MainServices
+    shutil
+        rmtree
+    os
+        mkdir
+        system
+        path
+            join
+            abspath
+    matplotlib
+        pyplot(plt)
+            plot
+            subplots
+            subplot
+            title
+            xlabel
+            ylabel
+            savefig
+    Services
+        MainServices
+            clean_dir
+            make_histogram
+    MainImplementation
+        predictor
+    flask
+        Flask
+        render_template
+        request
+    werkzeug
+        utils
+            secure_filename
+
+    
+
+
+
+
+
+
+
+
+Functions
+    import
+    from
+    as
+    except
+    try
+    for 
+    pass
+    yield
+    while
+    class
+    in
+    return
+
+
+
+
+
+
+
+YAML
+CSS
+JavaScript
+EOT
+HTML

@@ -1,0 +1,22 @@
+Python
+    detect_video
+    tkinter
+        askopenfilename
+    cv2
+        VideoCapture
+        destroyAllWindows
+        imread
+        imshow
+        putText
+        rectangle
+        waitKey
+    xml
+        ElementTree
+        etree
+            ElementTree
+        parse
+    numpy
+        argmax
+    random
+        randint
+    detect_image

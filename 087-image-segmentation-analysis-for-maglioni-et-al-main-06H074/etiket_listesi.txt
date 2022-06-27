@@ -1,0 +1,33 @@
+Python 
+    numpy
+        zeros
+    os
+        listdir
+    matplotlib
+        pyplot
+            figure
+            tight_layout
+            show
+    skimage
+        io 
+            imread
+            save_to_png
+    cellpose
+        models
+            Cellpose
+        io
+            save_to_png
+            imread
+        plot
+            show_segmentation
+
+Fonksiyonlar 
+
+    print
+    str 
+    range
+    len
+
+Yardımcı Teknolojiler 
+
+    Jupyter Notebook

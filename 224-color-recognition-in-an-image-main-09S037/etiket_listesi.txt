@@ -1,0 +1,23 @@
+Python
+    google
+        colab
+            drive
+    sklearn
+        cluster
+            KMeans
+    matplotlib
+        pyplot
+    numpy as np
+    cv2
+    collections
+        Counter
+    skimage
+        color
+            rgb2lab
+            deltaE_cie76
+    os
+    if
+    for
+        in
+Markdown
+Properties   

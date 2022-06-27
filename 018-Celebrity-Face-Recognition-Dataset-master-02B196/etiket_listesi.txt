@@ -1,0 +1,40 @@
+Python 
+   
+
+
+   time 
+      time 
+      sleep
+
+
+
+   sys 
+
+
+
+
+
+    os 
+       makedirs  
+
+
+
+    urllib2
+          Request
+          urlopen
+          URLError
+          HTTPError 
+
+
+
+
+        KOŞULLAR
+          if 
+          else
+
+
+        DÖNGÜLER
+          return
+          expect 
+          try 
+

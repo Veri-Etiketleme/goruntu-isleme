@@ -1,0 +1,79 @@
+Python
+    os
+        path
+            join
+            exists
+    cv2
+        imread
+        morphologyEx
+        MORPH_DILATE
+        MORPH_ERODE
+        cvtColor
+        threshold
+        THRESH_BINARY
+        findContours
+        contourArea
+        RETR_TREE
+        CHAIN_APPROX_SIMPLE
+        COLOR_BGR2GRAY
+        drawContours
+        FONT_HERSHEY_DUPLEX
+        rectangle
+        putText
+        waitKey
+        destroyAllWindows
+    mrcnn
+        config
+            Config
+        visualize       
+            display_instances
+            apply_mask
+        utils
+            download_trained_weights
+        model
+            MaskRCNN
+    pathlib
+        Path 
+    numpy(np)
+        zeros
+        uint8
+        ones
+        bool
+        int32
+    matplotlib
+        pyplot(plt)
+            imshow
+            show
+    warnings
+        catch_warnings
+        simplefilter
+    xmltodict
+        parse
+    skimage
+        draw
+            polygon
+
+
+
+
+
+Functions
+    import
+    return
+    as
+    from
+    for 
+    in 
+    continue
+    if
+    while
+    break
+    else
+
+
+
+
+
+
+
+XML

@@ -1,0 +1,21 @@
+Python
+    numpy
+        argmax
+        array
+    argparse
+        ArgumentParser
+    cv2
+        VideoCapture
+        VideoWriter
+        VideoWriter_fourcc
+        destroyAllWindows
+        imread
+        imshow
+        putText
+        rectangle
+        waitKey
+    subprocess
+    time
+        time
+    os
+    yolo_utils

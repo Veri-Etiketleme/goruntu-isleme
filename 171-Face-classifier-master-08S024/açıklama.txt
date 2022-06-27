@@ -1,0 +1,1 @@
+Python'da makine öğrenmesi algoritmaları ve sınıflandırma teknikleri kullanılarak yüz dedektörü ve sınıflandırıcı. Project PCA, LDA gibi çeşitli öznitelik çıkarma tekniklerini ve MLP, SVM gibi sınıflandırıcıları 3 ortak yüz veri setinde uygular.
