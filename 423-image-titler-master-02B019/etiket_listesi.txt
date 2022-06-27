@@ -1,0 +1,119 @@
+   PYTHON 
+       
+          
+         Shutil 
+                rmtree
+          
+          
+            sys
+             
+
+         pathlib 
+               Path 
+                  resolve
+                  stem
+                  is_file
+                  edited_image
+                        filename
+                         
+
+
+         unittest
+              TestCase
+              mock
+              patch
+                  object
+
+           
+
+           PIL 
+               Image
+                    open 
+                    ANTIALIAS
+                ImageDraw
+                     Draw
+                ImageFont
+                    truetype
+                ImageTk
+                    PhotoImage 
+
+           matplotlib
+                  font_manager
+                            fontManager
+                                    ttflist
+
+
+          imagetitler 
+               draw
+                  process_image
+              parse
+                   parse_input
+               store
+                      save_copies
+              constants 
+                      *
+
+
+
+
+          argparse
+                 Namespace
+                 ArgumentParser
+
+
+            
+            os 
+               path 
+                  join
+                  dirname 
+
+            typing
+                 Optional
+                 List
+            
+           titlecase
+
+           thinker 
+             ttk
+               Label
+               Frame
+               Checkbutton
+               Combobox
+
+                  W
+                  RIGHT
+                  LEFT
+                  NW
+                  YES
+                  BOTH
+                  MENU
+                  IntVar
+                  StringVar
+                  NORMAL
+                  DISABLED
+                  Entry
+                  X
+                  PhotoImage 
+             filedialog     
+                 askopenfilename
+                 askdirectory 
+
+
+            ArgumentParser
+                    
+                     sanitize_filename
+           
+          piexif
+                  helper
+                     UserComment
+               load
+               ExifIFD
+               dump
+            
+
+         setuptools 
+              read 
+
+YAML
+
+

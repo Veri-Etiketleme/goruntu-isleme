@@ -1,0 +1,34 @@
+Python
+    pickle
+    os
+        path  
+    matplotlib
+        pyplot
+    numpy  
+    tensorflow
+        keras
+            models
+                Model
+                Sequential
+            layers
+                Input
+                Conv2D
+                Dropout
+                MaxPooling2D
+                Flatten
+                Dense
+            callbacks
+                EarlyStopping
+                ModelCheckpoint
+            preprocessing
+                image
+                    ImageDataGenerator
+            optimizers
+    hw3_tester
+        Tester
+    if
+    else
+    fig
+        set_figheight
+        set_figwidth
+Markdown       

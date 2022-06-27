@@ -1,0 +1,39 @@
+python
+    import
+        time
+        math
+        cv2
+            VideoCapture
+            dnn
+                blobFromImage
+                NMSBoxes
+                readNetFromDarknet
+            circle
+            line
+            putText
+            FONT_HERSHEY_SIMPLEX
+            rectangle
+            imshow
+            waitKey
+            VideoWriter_fourcc
+            VideoWriter
+
+        numpy
+            random
+                seed
+            zeros
+            uint8
+            array
+            argmax
+
+    fonksiyonlar
+        if
+        else
+        elif
+        return
+        try
+        except
+        while
+        for
+        in
+        len 

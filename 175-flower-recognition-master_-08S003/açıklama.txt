@@ -1,0 +1,1 @@
+Bu depo, I.Gogul ve V.Sathiesh Kumar tarafından hazırlanan, Evrişimsel Sinir Ağlarını ve Aktarım Öğrenimi kullanan Çiçek Türleri Tanıma Sistemi başlıklı konferans bildirisinin kodunu içerir, ICSCN-2017 konferansı Bildiriler Kitabı, IEEE Xplore Dijital Kitaplığı.

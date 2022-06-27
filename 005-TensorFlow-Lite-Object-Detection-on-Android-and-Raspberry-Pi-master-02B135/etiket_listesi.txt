@@ -1,0 +1,94 @@
+
+PYTHON
+    
+
+    os
+      getcwd
+      path 
+         join
+
+    
+
+
+    argparse
+          ArgumentParser
+
+    
+
+    cv2
+      imread
+      cvtColor
+      COLOR_BGR2RGB
+      resize
+      rectangle
+      putText
+      waitKey
+      destroyAllWindows
+      FONT_HERSHEY_SIMPLEX
+      VideoCapture
+      CAP_PROP_FOURCC
+      VideoWriter_fourcc
+      getTickFrequency
+      getTickCount
+      getTextSize
+      imshow
+      CAP_PROP_FRAME_WIDTH
+      CAP_PROP_FRAME_HEIGHT
+
+
+
+
+    numpy
+        expand_dims
+        float32
+
+
+
+   sys 
+     exit
+
+
+
+    glob
+        glob
+
+   
+
+  importlib
+         util
+
+
+   tflite_runtime
+            interpreter
+                   Interpreter
+                    load_delegate
+
+    
+  
+  
+  tensorflow
+         lite
+            python
+                 interpreter
+                          Interpreter
+                           load_delegate
+    
+
+    threading
+          Thread
+
+
+KOŞULLAR
+   if 
+   else
+   while
+
+
+   DÖNGÜLER
+   returun 
+   break 
+
+
+
+YARDIMCI TEKNOLOJİLER
+Bash

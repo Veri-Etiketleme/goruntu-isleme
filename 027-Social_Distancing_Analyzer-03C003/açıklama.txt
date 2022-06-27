@@ -1,0 +1,3 @@
+Proje sahibinin açıklaması:"Video gözetiminde bilgisayar görüşünü kullanarak koronavirüsün (COVID-19) yayılmasını önlemek için bir yapay zeka aracı. 
+CCTV kameralarının ve drone'ların video gözetimini kullanarak sosyal mesafe protokolünü düzenleyen bir sosyal mesafe 
+analizörü yapay zeka aracı. COVID19'u önlemek için Sosyal Mesafe Analizörü"
