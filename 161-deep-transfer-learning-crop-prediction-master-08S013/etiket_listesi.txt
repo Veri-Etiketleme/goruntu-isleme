@@ -1,0 +1,222 @@
+Python
+    numpy(np)
+        linspace
+        load
+        zeros
+        empty
+        sum
+        argmax
+        max
+        average
+        min
+        uint16
+        reshape
+        transpose
+        histogram
+        where
+        squeeze
+        float32
+        multiply
+        save
+        concatenate
+        full
+        savez_compressed
+        prod
+        array
+        log
+        append
+        random
+            permutation
+            randint
+        mean
+        savez
+        exp
+        floor
+        log10
+    os
+        path
+            expanduser
+            isfile
+            join
+            getsize
+            expanduser
+            basename
+            normpath
+            isdir
+            exists
+        listdir
+        mkdir
+        getcwd
+        makedirs
+    constants
+        NUM_IMGS_PER_YEAR
+        NUM_TEMP_BANDS
+        NUM_REF_BANDS
+        CROP_SENTINEL
+        GBUCKET
+        RED_BAND
+        NIR_BAND
+        DATASETS
+    matplotlib
+        use
+        pyplot(plt)
+            subplots
+            suptitle
+            savefig
+            show
+            clf
+            figure
+            bar
+            ylabel
+            yticks
+            xticks
+            hist
+            plot
+            scatter
+            legend
+            ylabel
+            xlabel
+            title
+            savefig
+            imshow
+    argparse
+        ArgumentParser
+    sys
+        stdout
+            write
+            flush
+        argv
+    pandas(pd)
+        read_csv
+        read_excel
+        merge
+        concat
+    sklearn
+        utils
+            shuffle
+        linear_model
+            LinearRegression
+            Ridge
+        metrics
+            mean_squared_error
+            r2_score
+    getpass
+        getuser
+    unidecode
+        unidecode
+    tensorflow(tf)
+        variable_scope
+        get_variable
+        contrib
+            layers
+                variance_scaling_initializer
+        summary
+            histogram
+            scalar
+            merge
+        nn
+            conv2d
+            max_pool
+            relu
+            moments
+            batch_normalization
+            batch_norm_with_global_normalization
+            dropout
+        matmul
+        train
+            ExponentialMovingAverage
+            AdamOptimizer
+                minimize
+        constant_initializer
+        random_normal_initializer
+        control_dependencies
+        identity
+        placeholder
+        float32
+        reshape
+        squeeze
+        l2_loss
+        add_n
+        trainable_variables
+    datetime
+        datetime
+            now
+    ee(?)
+        Image
+        Algorithms
+            If
+            IsEqual
+        batch
+            Export
+                image
+                    toCloudStorage
+        Initialize
+        FeatureCollection
+        ImageCollection
+        Geometry
+            Rectangle
+        Number
+        Feature
+    time
+        sleep
+        localtime
+        strftime
+    pdb
+    
+        Counter
+    csv
+    random
+    math
+        sqrt
+    seaborn(sns)
+        set
+    gdal
+        Open
+    nnet_LSTM
+        *
+    train_NN
+        run_NN
+    logging
+    util
+        Progbar
+    oauth2client
+        service_account
+            ServiceAccountCredentials
+    GP
+        GaussianProcess
+    scipy
+        stats
+            stats
+                pearsonr
+    itertools
+        compress
+    gspread
+    spreadsheet_auth
+        get_credentials
+    collections
+        defaultdict
+Döngüler
+Koşullar
+    
+
+                
+
+    
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+            
+
+

@@ -1,0 +1,69 @@
+Python 
+    glob 
+        glob
+    matplotlib
+        pyplot
+            subplot
+            imshow
+            savefig
+        image 
+            imread
+            imsave
+    numpy 
+        zeros_like
+        squeeze
+        sqrt
+        abs 
+        argsort
+        median
+        concatenate
+        isnan 
+        isinf
+        array
+        poly1d
+        polyfit
+        zeros 
+        uint8
+        int32
+        pi 
+        mean
+    cv2
+        inRange
+        fillPoly
+        line 
+        addWeighted
+        cvtColor
+        COLOR_RGB2GRAY
+        imwrite
+        bitwise_and
+        Canny
+        GaussianBlur
+        HoughLinesP
+    math 
+    os 
+        listdir
+    moviepy
+        editor
+            VideosFileClip
+    IPython 
+        display 
+            HTML 
+    argparse
+        ArgumentParser
+
+Fonksiyonlar 
+
+    print
+    type
+    len 
+    list 
+    filter 
+    min 
+    int 
+    enumerate
+    for 
+
+Yardımcı Teknolojiler 
+
+    Jupyter Notebook
+    Shell Script

@@ -1,0 +1,1 @@
+Bir videodaki araçları ve şerit çizgilerini algılamak için bir yazılım hattı geliştirin

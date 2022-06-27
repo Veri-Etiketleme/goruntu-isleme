@@ -1,0 +1,28 @@
+Python
+    fastai
+        data
+            all
+        vision
+            all
+            widgets
+        metrics
+            error_rate
+    os
+    face_recognition
+    cv2
+    numpy    
+    PIL
+        Image
+        ImageDraw
+        ImageFile
+    for
+        in
+    shutil
+    tqdm
+        tqdm
+    matplotlib
+        pyplot
+            figure
+    if
+Properties  
+    
